@@ -10,6 +10,11 @@ The window is a scenery in the bedroom.
 
 The bathroom is a room.
 The bathroom is east of the bedroom.
+The shower is a scenery in the bathroom.
+The bidet is a scenery in the bathroom.
+The toilet is a scenery in the bathroom.
+The sink is a scenery in the bathroom.
+The mirror is a scenery in the bathroom.
 
 The stairwell is a room.
 The stairwell is north of the bedroom.
