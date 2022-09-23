@@ -13,11 +13,37 @@ An Interactive Fiction by jd calvelli
 Release 1 / Serial number 220923 / Inform 7 v10.1.2 / D
 
 bedroom
+You can see a bed, a dresser (empty), a chest (closed) and a nightstand (on which is a glasses) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1005"></child>
+            <child nodeId="node-1018"></child>
+            <child nodeId="node-1017"></child>
         </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">open chest</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">look at window</command>
+        <result xml:space="preserve">You see nothing special about the window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">examine window</command>
+        <result xml:space="preserve">You see nothing special about the window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1005">
         <command xml:space="preserve">e</command>
