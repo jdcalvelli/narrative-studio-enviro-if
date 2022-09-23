@@ -18,6 +18,8 @@ The mirror is a scenery in the bathroom.
 
 The stairwell is a room.
 The stairwell is north of the bedroom.
+The pictures are a scenery in the stairwell.
+The banister is a scenery in the stairwell.
 
 The entryway is a room.
 The entryway is north of the stairwell.

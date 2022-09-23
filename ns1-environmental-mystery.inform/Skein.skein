@@ -19,6 +19,7 @@ You can see a bed, a dresser (empty), a chest (closed) and a nightstand (on whic
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1005"></child>
             <child nodeId="node-1018"></child>
+            <child nodeId="node-1035"></child>
             <child nodeId="node-1017"></child>
             <child nodeId="node-1033"></child>
         </children>
@@ -42,6 +43,32 @@ You can see a bed, a dresser (empty), a chest (closed) and a nightstand (on whic
     <item nodeId="node-1017">
         <command xml:space="preserve">open chest</command>
         <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+stairwell
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">x pictures</command>
+        <result xml:space="preserve">You see nothing special about the pictures.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">x banister</command>
+        <result xml:space="preserve">You see nothing special about the banister.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
