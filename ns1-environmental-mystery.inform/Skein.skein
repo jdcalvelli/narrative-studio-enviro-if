@@ -20,7 +20,24 @@ You can see a bed, a dresser (empty), a chest (closed) and a nightstand (on whic
         <children><child nodeId="node-1005"></child>
             <child nodeId="node-1018"></child>
             <child nodeId="node-1017"></child>
+            <child nodeId="node-1033"></child>
         </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">take glasses</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">wear glasses</command>
+        <result xml:space="preserve">You put on the glasses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1017">
         <command xml:space="preserve">open chest</command>

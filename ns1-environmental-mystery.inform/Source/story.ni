@@ -5,7 +5,7 @@ The bed is a supporter in the bedroom.
 The dresser is a container in the bedroom.
 The chest is a locked container in the bedroom.
 The nightstand is a supporter in the bedroom.
-The glasses are an object on the nightstand.
+The glasses are a wearable object on the nightstand.
 The window is a scenery in the bedroom.
 
 The bathroom is a room.
