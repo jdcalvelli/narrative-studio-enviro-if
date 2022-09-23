@@ -21,6 +21,7 @@ You can see a bed, a dresser (empty), a chest (closed) and a nightstand (on whic
             <child nodeId="node-1018"></child>
             <child nodeId="node-1035"></child>
             <child nodeId="node-1017"></child>
+            <child nodeId="node-1040"></child>
             <child nodeId="node-1033"></child>
         </children>
     </item>
@@ -36,6 +37,45 @@ You can see a bed, a dresser (empty), a chest (closed) and a nightstand (on whic
     <item nodeId="node-1034">
         <command xml:space="preserve">wear glasses</command>
         <result xml:space="preserve">You put on the glasses.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+stairwell
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+entryway
+You can see a closet (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+yard
+You can see a left planter (on which is a ruined tomatoes) and a right planter (on which is a basil) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

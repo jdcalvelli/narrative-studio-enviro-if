@@ -23,9 +23,23 @@ The banister is a scenery in the stairwell.
 
 The entryway is a room.
 The entryway is north of the stairwell.
+The closet is a closed container in the entryway.
 
 The living room is a room.
 The living room is west of the entryway.
+The television is a device in the living room.
+The coffee table is a supporter in the living room.
+The couch is a supporter in the living room.
+The north window is a scenery in the living room.
+The south window is a scenery in the living room.
+The kitchen alcove is a scenery in the living room.
 
 The yard is a room.
 The yard is north of the entryway.
+The cobblestone path is a scenery in the yard.
+The left planter is a supporter in the yard.
+The right planter is a supporter in the yard.
+The ruined tomatoes are an object on the left planter.
+The basil is an object on the right planter.
+The fence is a scenery in the yard.
+The gate is a scenery in the yard.
