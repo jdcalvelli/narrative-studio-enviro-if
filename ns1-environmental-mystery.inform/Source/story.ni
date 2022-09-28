@@ -237,6 +237,21 @@ Instead of eating something:
 
 [-----------------------------------------------------------------------------------------------]
 
+[ACTION DEFINITIONS]
+
+Magnifying is an action applying to one visible thing.
+Understand "magnify [something]" as magnifying.
+Check magnifying:
+	if player has magnifying glass:
+		if noun is ruined tomatoes:
+			say "Using the magnifying glass, you can see what look like two semicircular rings of small holes on many of the ruined tomatoes. Bite marks! But of what? One step closer to justice...";
+		else:
+			say "On close inspection, nothing looks out of the ordinary...";
+	else:
+		say "You need a tool with which to magnify things...";
+
+[-----------------------------------------------------------------------------------------------]
+
 [TESTS]
 
 test getOutOfBedroom with "examine nightstand / wear glasses / open dresser / wear work clothes / take set of keys / n / n " 
