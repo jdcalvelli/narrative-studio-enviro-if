@@ -26,6 +26,7 @@ The description of the set of work clothes is
 The set of keys is an object inside the set of work clothes.
 The description of the set of keys is
 "Your trusty keys, one for your antique chest, and one for your downstairs closet. Will probably come in handy, considering that it's gardening time!"
+The set of keys unlocks the chest.
 
 [chest tree]
 The chest is an undescribed locked container in the bedroom.
@@ -42,6 +43,7 @@ The description of the pair of glasses is
 "Your spectacles are particularly important to you, considering that your eyes have aged right alongside you. Being nearsighted isn't as nearly as fun as gardening is."
 
 [window tree]
+[why does it default unlock chest with the window?]
 The window is a scenery in the bedroom.
 The description of the window is
 "Through the window you see the shining sun. A bright and cheery day. You feel incredible just thinking about it. No better day than today to garden."
@@ -54,8 +56,6 @@ Instead of entering the bed:
 Instead of wearing the set of work clothes:
 	say "As you move to put on your clothes, you hear something jingling in the pockets of your cargo shorts. Oh boy, you left your keys in your pants again? Silly you!";
 	continue the action;
-	
-[to do: chest unlock check if you have keys]
 	
 Instead of wearing the pair of glasses:
 	say "The world comes into focus - no more squinting necessary. Ready to take on the day at full strength! Well, as full strength as you can muster at your age!";

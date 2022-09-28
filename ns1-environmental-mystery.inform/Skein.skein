@@ -44,7 +44,8 @@ That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1184"></child>
+        <children><child nodeId="node-1204"></child>
+            <child nodeId="node-1184"></child>
             <child nodeId="node-1178"></child>
         </children>
     </item>
@@ -129,6 +130,13 @@ You put on the set of work clothes.
     <item nodeId="node-1189">
         <command xml:space="preserve">keys</command>
         <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">examine chest</command>
+        <result xml:space="preserve">Its a dusty old chest, you think you keep some things in there, but you honestly can't even remember. It's been so long since you've opened it. But it looks nice! So you keep it around for the aesthetic.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1090">
@@ -218,11 +226,12 @@ You put on the set of work clothes.
     </item>
     <item nodeId="node-1163">
         <command xml:space="preserve">take keys</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1164"></child>
+        <children><child nodeId="node-1195"></child>
+            <child nodeId="node-1164"></child>
         </children>
     </item>
     <item nodeId="node-1164">
@@ -239,6 +248,31 @@ You put on the set of work clothes.
         <result xml:space="preserve">You are carrying:
   a keyring
   a set of work clothes (being worn)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">open chest</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">unlock chest</command>
+        <result xml:space="preserve">What do you want to unlock the chest with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">keys</command>
+        <result xml:space="preserve">You unlock the chest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
