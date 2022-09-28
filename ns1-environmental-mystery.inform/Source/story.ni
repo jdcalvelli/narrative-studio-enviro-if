@@ -98,7 +98,6 @@ The mirror is a scenery in the bathroom.
 
 [STAIRWELL ROOM]
 
-[stairwell room set up]
 The stairwell is a room.
 The stairwell is north of the bedroom.
 The description of the stairwell is
@@ -107,7 +106,7 @@ The description of the stairwell is
 [STAIRWELL OBJECTS]
 
 [picture tree]
-The pictures are a scenery in the stairwell.
+The pictures are an undescribed scenery in the stairwell.
 The description of the pictures is
 "It's always lovely to take a walk down memory lane. You've made a point to take pictures of every moment in your gardening experience that you've been proud of. There have been so many!
 
@@ -118,17 +117,45 @@ This one? Oh, that was from when you made jack-o-lanterns during Halloween-time 
 Good times all around."
 
 [banister tree]
-The banister is a scenery in the stairwell.
+The banister is an undescribed scenery in the stairwell.
 The description of the banister is
 "Taking a quick glance over the banister, you can see your living room down below. It's your second favorite place to be, after your garden, naturally. I mean, where else would you read your gardening books?"
 
 [-----------------------------------------------------------------------------------------------]
 
-[entryway room set up]
+[ENTRYWAY ROOM]
+
 The entryway is a room.
 The entryway is north of the stairwell.
+The description of the entryway is
+"The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+
+Your living room lies to your east, and your yard lies to your north."
+
 [room objects]
-The closet is a closed container in the entryway.
+The closet is an undescribed openable closed container in the entryway.
+The description of the closet is
+"A simple, accordion folding wooden closet. [if closed]It is currently closed. [else if open]The closet is folded away, revealing a mish-mash of various items you can't really make heads or tails of. However, perched precariously on top of the chaos is shiny red toolbox."
+
+The shiny red toolbox is a locked container in the closet.
+[miraculous taht this works below, theoretically]
+The shiny red toolbox is unlocked by the set of keys.
+The description of the shiny red toolbox is
+"A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. [if toolbox is locked and toolbox is closed]It seems locked shut. Now where did I put my darn keys... [else if closed]The toolbox is closed. [else if open]Inside the open toolbox you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass."
+
+The spade is an object in the shiny red toolbox.
+The description of the spade is
+"A classic tool used for digging up dirt."
+
+The bag of seeds is an object in the shiny red toolbox.
+The description of the bag of seeds is
+"Squash seeds! But is squash in season now? You can't remember."
+
+The magnifying glass is an object in the shiny red toolbox.
+The description of the magnifying glass is
+"A tool used to make things look bigger. Being nearsighted doesn't help when things are too small!"
+
+[-----------------------------------------------------------------------------------------------]
 
 [living room room set up]
 The living room is a room.
@@ -157,4 +184,4 @@ The gate is a scenery in the yard.
 
 [TESTS]
 
-test getOutOfBedroom with "examine nightstand / wear glasses / n"
+test getOutOfBedroom with "examine nightstand / wear glasses / open dresser / wear work clothes / take set of keys / n / n" 
