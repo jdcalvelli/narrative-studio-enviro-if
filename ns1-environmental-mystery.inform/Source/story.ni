@@ -1,6 +1,9 @@
 "ns1-environmental-mystery" by jd calvelli
 
+[-----------------------------------------------------------------------------------------------]
+
 [BEDROOM ROOM]
+
 The bedroom is a room.
 The description of the bedroom is 
 "You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
@@ -8,7 +11,9 @@ The description of the bedroom is
 You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy.
 
 Your bathroom lies to your east, and the stairwell down to the rest of your home is to your north."
+
 [BEDROOM OBJECTS]
+
 [bed tree]
 The bed is an undescribed supporter in the bedroom.
 The description of the bed is
@@ -48,7 +53,9 @@ The window is a scenery in the bedroom.
 The description of the window is
 "Through the window you see the shining sun. A bright and cheery day. You feel incredible just thinking about it. No better day than today to garden."
 
+
 [BEDROOM ACTIONS]
+
 Instead of entering the bed:
 	say "No time to sleep more, your garden is eagerly awaiting you, after all!";
 	stop the action;
@@ -67,8 +74,15 @@ Instead of going north:
 	else if player is wearing pair of glasses:
 		say "Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.";
 		continue the action;
+		
+[holdover for playtest]
+Instead of going east:
+	say "You don't feel the need to go to the bathroom right now.";
+	stop the action;
 
-[-----------------------------------------------------------------------------------------------]	
+[-----------------------------------------------------------------------------------------------]
+
+[to do for post playtest]
 
 [bathroom room set up]
 The bathroom is a room.
@@ -80,12 +94,35 @@ The toilet is a scenery in the bathroom.
 The sink is a scenery in the bathroom.
 The mirror is a scenery in the bathroom.
 
+[-----------------------------------------------------------------------------------------------]
+
+[STAIRWELL ROOM]
+
 [stairwell room set up]
 The stairwell is a room.
 The stairwell is north of the bedroom.
-[room objects]
+The description of the stairwell is
+"You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest."
+
+[STAIRWELL OBJECTS]
+
+[picture tree]
 The pictures are a scenery in the stairwell.
+The description of the pictures is
+"It's always lovely to take a walk down memory lane. You've made a point to take pictures of every moment in your gardening experience that you've been proud of. There have been so many!
+
+That one there? Oh, that is when you won the county fair for your largest cucumber!
+
+This one? Oh, that was from when you made jack-o-lanterns during Halloween-time with the pumpkins you grew yourself.
+
+Good times all around."
+
+[banister tree]
 The banister is a scenery in the stairwell.
+The description of the banister is
+"Taking a quick glance over the banister, you can see your living room down below. It's your second favorite place to be, after your garden, naturally. I mean, where else would you read your gardening books?"
+
+[-----------------------------------------------------------------------------------------------]
 
 [entryway room set up]
 The entryway is a room.
@@ -115,3 +152,9 @@ The ruined tomatoes are an object on the left planter.
 The basil is an object on the right planter.
 The fence is a scenery in the yard.
 The gate is a scenery in the yard.
+
+[-----------------------------------------------------------------------------------------------]
+
+[TESTS]
+
+test getOutOfBedroom with "examine nightstand / wear glasses / n"

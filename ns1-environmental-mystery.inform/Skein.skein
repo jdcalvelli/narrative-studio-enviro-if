@@ -33,6 +33,7 @@ Your bathroom lies to your east, and the stairwell down to the rest of your home
             <child nodeId="node-1137"></child>
             <child nodeId="node-1092"></child>
             <child nodeId="node-1090"></child>
+            <child nodeId="node-1248"></child>
             <child nodeId="node-1177"></child>
         </children>
     </item>
@@ -135,6 +136,65 @@ You put on the set of work clothes.
     <item nodeId="node-1204">
         <command xml:space="preserve">examine chest</command>
         <result xml:space="preserve">Its a dusty old chest, you think you keep some things in there, but you honestly can't even remember. It's been so long since you've opened it. But it looks nice! So you keep it around for the aesthetic.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">test</command>
+        <result xml:space="preserve">&gt;--&gt; The following tests are available:
+'test getoutofbedroom'
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">test getoutofbedroom</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] examine nightstand
+Your nightstand. Pretty sure your mother's mother gave it to your mother, who gave it to you. Regardless, it's been in the family forever, but now it serves its spectacular purpose as a central location for your pair of glasses. So that you don't forget them, of course.
+
+&gt;[2] wear glasses
+(first taking the pair of glasses)
+The world comes into focus - no more squinting necessary. Ready to take on the day at full strength! Well, as full strength as you can muster at your age!
+
+You put on the pair of glasses.
+
+&gt;[3] n
+Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
+
+stairwell
+You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] examine nightstand
+[2] wear glasses
+[3] n
+</commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">examine banister</command>
+        <result xml:space="preserve">Taking a quick glance over the banister, you can see your living room down below. It's your second favorite place to be, after your garden, naturally. I mean, where else would you read your gardening books?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">examine pictures</command>
+        <result xml:space="preserve">It's always lovely to take a walk down memory lane. You've made a point to take pictures of every moment in your gardening experience that you've been proud of. There have been so many!
+
+That one there? Oh, that is when you won the county fair for your largest cucumber!
+
+This one? Oh, that was from when you made jack-o-lanterns during Halloween-time with the pumpkins you grew yourself.
+
+Good times all around.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
