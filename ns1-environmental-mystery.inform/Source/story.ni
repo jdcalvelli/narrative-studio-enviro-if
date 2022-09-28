@@ -1,5 +1,7 @@
 "ns1-environmental-mystery" by jd calvelli
 
+Release along with interpreter.
+
 [-----------------------------------------------------------------------------------------------]
 
 [BEDROOM ROOM]
