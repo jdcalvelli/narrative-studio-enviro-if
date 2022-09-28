@@ -292,13 +292,14 @@ That's plainly inedible.
     </item>
     <item nodeId="node-1281">
         <command xml:space="preserve">examine closet</command>
-        <result xml:space="preserve">A simple, accordion folding wooden closet. The closet is folded away, revealing a mish-mash of various items you can't really make heads or tails of. However, stacked neatly on top of the chaos is shiny red toolbox.
+        <result xml:space="preserve">A simple, accordion folding wooden closet. The closet is folded away, revealing a mish-mash of various items you can't really make heads or tails of. However, perched precariously on top of the chaos is shiny red toolbox.
 
 In the closet is a shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1282"></child>
+        <children><child nodeId="node-1387"></child>
+            <child nodeId="node-1282"></child>
         </children>
     </item>
     <item nodeId="node-1282">
@@ -358,6 +359,69 @@ In the closet is a shiny red toolbox.
     <item nodeId="node-1288">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside the open toolbox you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">examine toolbox</command>
+        <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. It seems locked shut. Now where did I put my darn keys... 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">unlock toolbox</command>
+        <result xml:space="preserve">What do you want to unlock the shiny red toolbox with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1389"></child>
+        </children>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">keys</command>
+        <result xml:space="preserve">You unlock the shiny red toolbox.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">open toolbox</command>
+        <result xml:space="preserve">You open the shiny red toolbox, revealing a spade, a bag of seeds and a magnifying glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1391"></child>
+        </children>
+    </item>
+    <item nodeId="node-1391">
+        <command xml:space="preserve">examine toolbox</command>
+        <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside the open toolbox you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
+
+In the shiny red toolbox are a spade, a bag of seeds and a magnifying glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1392"></child>
+        </children>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">take magnifying glass</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1393"></child>
+        </children>
+    </item>
+    <item nodeId="node-1393">
+        <command xml:space="preserve">use magnifying glass on spade</command>
+        <result xml:space="preserve">On close inspection, nothing looks out of the ordinary...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
