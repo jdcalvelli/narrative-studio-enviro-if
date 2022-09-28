@@ -20,7 +20,7 @@ The description of the bed is
 "Wooden slatts, wooden headboard, and a nice firm mattress. Better for your back that way."
 
 [dresser tree]
-The dresser is an undescribed openable closed container in the bedroom.
+The dresser is an undescribed fixed in place openable closed container in the bedroom.
 The description of the dresser is
 "Midcentury modern, just like the rest of your furniture. Well, now it's called midcentury modern, apparently. When you got it it was just modern! [if closed]It's currently closed. [else if open]It's currently open, and neatly folded on top is your favorite set of work clothes."
 
@@ -31,15 +31,15 @@ The description of the set of work clothes is
 The set of keys is an object inside the set of work clothes.
 The description of the set of keys is
 "Your trusty keys, one for your antique chest, and one for your downstairs closet. Will probably come in handy, considering that it's gardening time!"
-The set of keys unlocks the chest.
 
 [chest tree]
-The chest is an undescribed locked container in the bedroom.
+The chest is an undescribed fixed in place locked container in the bedroom.
 The description of the chest is
 "Its a dusty old chest, you think you keep some things in there, but you honestly can't even remember. It's been so long since you've opened it. But it looks nice! So you keep it around for the aesthetic."
+The chest is unlocked by the set of keys.
 
 [nightstand tree]
-The nightstand is an undescribed supporter in the bedroom.
+The nightstand is an undescribed fixed in place supporter in the bedroom.
 The description of the nightstand is
 "Your nightstand. Pretty sure your mother's mother gave it to your mother, who gave it to you. Regardless, it's been in the family forever, but now it serves its spectacular purpose as a central location for your pair of glasses. So that you don't forget them, of course."
 
@@ -48,11 +48,11 @@ The description of the pair of glasses is
 "Your spectacles are particularly important to you, considering that your eyes have aged right alongside you. Being nearsighted isn't as nearly as fun as gardening is."
 
 [window tree]
-[why does it default unlock chest with the window?]
-The window is a scenery in the bedroom.
+[use undescribed to hide from scope so that unlock doesn't default to trying to grab something in scope]
+[so undescribed makes a private variable it seems]
+The window is an undescribed fixed in place scenery in the bedroom.
 The description of the window is
 "Through the window you see the shining sun. A bright and cheery day. You feel incredible just thinking about it. No better day than today to garden."
-
 
 [BEDROOM ACTIONS]
 

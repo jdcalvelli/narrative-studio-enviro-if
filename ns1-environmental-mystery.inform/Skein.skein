@@ -10,7 +10,7 @@
 
 ns1-environmental-mystery
 An Interactive Fiction by jd calvelli
-Release 1 / Serial number 220927 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 220928 / Inform 7 v10.1.2 / D
 
 bedroom
 You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
@@ -33,6 +33,7 @@ Your bathroom lies to your east, and the stairwell down to the rest of your home
             <child nodeId="node-1137"></child>
             <child nodeId="node-1092"></child>
             <child nodeId="node-1090"></child>
+            <child nodeId="node-1290"></child>
             <child nodeId="node-1248"></child>
             <child nodeId="node-1255"></child>
             <child nodeId="node-1177"></child>
@@ -40,13 +41,12 @@ Your bathroom lies to your east, and the stairwell down to the rest of your home
     </item>
     <item nodeId="node-1177">
         <command xml:space="preserve">unlock chest</command>
-        <result xml:space="preserve">(with the window)
-(first taking the window)
-That's hardly portable.
+        <result xml:space="preserve">What do you want to unlock the chest with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1204"></child>
+        <children><child nodeId="node-1294"></child>
+            <child nodeId="node-1204"></child>
             <child nodeId="node-1184"></child>
             <child nodeId="node-1178"></child>
         </children>
@@ -137,6 +137,32 @@ You put on the set of work clothes.
     <item nodeId="node-1204">
         <command xml:space="preserve">examine chest</command>
         <result xml:space="preserve">Its a dusty old chest, you think you keep some things in there, but you honestly can't even remember. It's been so long since you've opened it. But it looks nice! So you keep it around for the aesthetic.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">dresser</command>
+        <result xml:space="preserve">(first taking the dresser)
+That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+            <child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">inventory</command>
+        <result xml:space="preserve">You are carrying:
+  a dresser (closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">examine window</command>
+        <result xml:space="preserve">Through the window you see the shining sun. A bright and cheery day. You feel incredible just thinking about it. No better day than today to garden.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -422,6 +448,24 @@ That one there? Oh, that is when you won the county fair for your largest cucumb
 This one? Oh, that was from when you made jack-o-lanterns during Halloween-time with the pumpkins you grew yourself.
 
 Good times all around.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">take window</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">unlock chest</command>
+        <result xml:space="preserve">(with the window)
+(first taking the window)
+That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
