@@ -217,7 +217,68 @@ Your living room lies to your east, and your yard lies to your north.
 </commentary>
         <children><child nodeId="node-1262"></child>
             <child nodeId="node-1280"></child>
+            <child nodeId="node-1350"></child>
         </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
+
+yard
+You step out into your yard, ready to bask in the glory of your wonderous garden. However, as you are taking your time down the cobblestone path, you can't help but shake the feeling that something isn't right. It feels as though something has changed, been disturbed.
+
+The left planter is there, the right planter is there, your fence is still there, blocking your place of serenity from the hustle and bustle of the city beyond. But still...something seems wrong.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">take tomatoes</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">take basil</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">eat tomatoes</command>
+        <result xml:space="preserve">You stop yourself before you continue. As tasty as you are sure they are, even in their sad state, you know that you can't be rid of the only evidence you have. Justice comes first. Hunger can come later.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">eat basil</command>
+        <result xml:space="preserve">Just one taste couldn't hurt...right?
+You devour the entire plant. The taste is just so divine. What a shame, now you know for sure that the plant would have won first place at the county fair...
+
+That's plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1280">
         <command xml:space="preserve">open closet</command>
@@ -304,14 +365,17 @@ In the closet is a shiny red toolbox.
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
-entryway
-The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+yard
+You step out into your yard, ready to bask in the glory of your wonderous garden. However, as you are taking your time down the cobblestone path, you can't help but shake the feeling that something isn't right. It feels as though something has changed, been disturbed.
 
-Your living room lies to your east, and your yard lies to your north.
+The left planter is there, the right planter is there, your fence is still there, blocking your place of serenity from the hustle and bustle of the city beyond. But still...something seems wrong.
+
+You can see a left planter and a right planter (on which is a basil) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1263"></child>
+        <children><child nodeId="node-1328"></child>
+            <child nodeId="node-1263"></child>
         </children>
     </item>
     <item nodeId="node-1263">
@@ -389,6 +453,49 @@ Your living room lies to your east, and your yard lies to your north.
     <item nodeId="node-1271">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">examine left planter</command>
+        <result xml:space="preserve">Oh no...
+
+Oh, the horror...
+
+You're tomatoes...they're...
+
+They're ruined.
+
+The scene of the crime is grizzly. Tomatoes scattered and torn off of their stems, squashed and leaking their delicious innards...You have to look away, it's too graphic.
+
+You must find out who did this to your lovelies. There must be justice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1341"></child>
+            <child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">take tomatoes</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">examine tomatoes</command>
+        <result xml:space="preserve"> You cradle the ruined tomatoes in your arms to spend one last moment with them. At this distance, you can notice that there are some small markings on some of the tomatoes, but your eyes aren't what they used to be. If only you could get even closer...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">examine tomatoes</command>
+        <result xml:space="preserve">It breaks your heart to see your lovely tomatoes in such a state. As much as it pains you, you know that you need to be there for them in this moment. You need to learn more to bring the culprit to justice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

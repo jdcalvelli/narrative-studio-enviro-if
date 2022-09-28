@@ -132,7 +132,8 @@ The description of the entryway is
 
 Your living room lies to your east, and your yard lies to your north."
 
-[room objects]
+[ENTRYWAY OBJECTS]
+
 The closet is an undescribed openable closed container in the entryway.
 The description of the closet is
 "A simple, accordion folding wooden closet. [if closed]It is currently closed. [else if open]The closet is folded away, revealing a mish-mash of various items you can't really make heads or tails of. However, perched precariously on top of the chaos is shiny red toolbox."
@@ -168,20 +169,72 @@ The north window is a scenery in the living room.
 The south window is a scenery in the living room.
 The kitchen alcove is a scenery in the living room.
 
-[yard room set up]
+[-----------------------------------------------------------------------------------------------]
+
+[YARD ROOM]
+
 The yard is a room.
 The yard is north of the entryway.
-[room objects]
-The cobblestone path is a scenery in the yard.
-The left planter is a supporter in the yard.
-The right planter is a supporter in the yard.
-The ruined tomatoes are an object on the left planter.
-The basil is an object on the right planter.
-The fence is a scenery in the yard.
-The gate is a scenery in the yard.
+The description of the yard is
+"You step out into your yard, ready to bask in the glory of your wonderous garden. However, as you are taking your time down the cobblestone path, you can't help but shake the feeling that something isn't right. It feels as though something has changed, been disturbed.
+
+The left planter is there, the right planter is there, your fence is still there, blocking your place of serenity from the hustle and bustle of the city beyond. But still...something seems wrong."
+
+
+[YARD OBJECTS]
+
+[path tree]
+The cobblestone path is an undescribed fixed in place scenery in the yard.
+The description of the cobblestone path is
+"You laid these stones yourself, years ago. When you were more spry. But, even with their weathered look now after years of walking over them, they still add to the general ambiance of your garden."
+
+
+[left planter tree]
+The left planter is an undescribed fixed in place supporter in the yard.
+The description of the left planter is
+"Oh no...
+
+Oh, the horror...
+
+You're tomatoes...they're...
+
+They're ruined.
+
+The scene of the crime is grizzly. Tomatoes scattered and torn off of their stems, squashed and leaking their delicious innards...You have to look away, it's too graphic.
+
+You must find out who did this to your lovelies. There must be justice."
+
+The ruined tomatoes are an undescribed edible object on the left planter.
+The description of the ruined tomatoes is
+"[if player has ruined tomatoes]You cradle the ruined tomatoes in your arms to spend one last moment with them. At this distance, you can notice that there are some small markings on some of the tomatoes, but your eyes aren't what they used to be. If only you could get even closer...[else]It breaks your heart to see your lovely tomatoes in such a state. As much as it pains you, you know that you need to be there for them in this moment. You need to learn more to bring the culprit to justice."
+
+[right planter tree]
+The right planter is an undescribed fixed in place supporter in the yard.
+The description of the right planter is
+"The home of your basil plant. Undisturbed. Pristine. Beautiful"
+
+The basil is an undescribed edible object on the right planter.
+The description of the basil is
+"The many leaves are gorgeously folded over and about all bending and dancing around their stems. The fine smell engulfs the air around the plant. It's so beautiful, it almost brings you to tears. You're confident that with some more time and care, this plant might win the next country fair competition!"
+
+[fence tree]
+The fence is an undescribed fixed in place scenery in the yard.
+The description of the fence is
+"The wooden fence separates your oasis from the urban sprawl beyond. You rarely, if ever, feel the need to head out beyond the confines of your paradise - only to get resources to support your hobbies, or show them off. Thankfully, neither condition applies right now."
+
+[YARD ACTIONS]
+
+Instead of eating something:
+	if noun is ruined tomatoes:
+		say "You stop yourself before you continue. As tasty as you are sure they are, even in their sad state, you know that you can't be rid of the only evidence you have. Justice comes first. Hunger can come later.";
+		stop the action;
+	else if noun is basil:
+		say "Just one taste couldn't hurt...right?";
+		say "You devour the entire plant. The taste is just so divine. What a shame, now you know for sure that the plant would have won first place at the county fair...";
+		continue the action;
 
 [-----------------------------------------------------------------------------------------------]
 
 [TESTS]
 
-test getOutOfBedroom with "examine nightstand / wear glasses / open dresser / wear work clothes / take set of keys / n / n" 
+test getOutOfBedroom with "examine nightstand / wear glasses / open dresser / wear work clothes / take set of keys / n / n " 
