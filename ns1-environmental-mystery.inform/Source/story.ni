@@ -242,6 +242,7 @@ Instead of eating something:
 Magnifying is an action applying to one visible thing.
 Understand "magnify [something]" as magnifying.
 Understand "use magnifying glass on [something]" as magnifying.
+Understand "use glass on [something]" as magnifying.
 
 Check magnifying:
 	if player has magnifying glass:
