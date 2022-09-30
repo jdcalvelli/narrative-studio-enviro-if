@@ -208,7 +208,7 @@ You must find out who did this to your lovelies. There must be justice."
 
 The ruined tomatoes are an undescribed edible object on the left planter.
 The description of the ruined tomatoes is
-"[if player has ruined tomatoes]You cradle the ruined tomatoes in your arms to spend one last moment with them. At this distance, you can notice that there are some small markings on some of the tomatoes, but your eyes aren't what they used to be. If only you could get even closer...[else]It breaks your heart to see your lovely tomatoes in such a state. As much as it pains you, you know that you need to be there for them in this moment. You need to learn more to bring the culprit to justice."
+"[if player has ruined tomatoes]You cradle the ruined tomatoes in your arms to spend one last moment with them. At this distance, you can notice that there are some small markings on some of the tomatoes, but your eyes aren't what they used to be. If only you could magnify the markings somehow...[else]It breaks your heart to see your lovely tomatoes in such a state. As much as it pains you, you know that you need to be there for them in this moment. You need to learn more to bring the culprit to justice."
 
 [right planter tree]
 The right planter is an undescribed fixed in place supporter in the yard.
