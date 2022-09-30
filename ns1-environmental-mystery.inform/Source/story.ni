@@ -70,7 +70,7 @@ Instead of wearing the pair of glasses:
 	say "The world comes into focus - no more squinting necessary. Ready to take on the day at full strength! Well, as full strength as you can muster at your age!";
 	continue the action;
 	
-Instead of going north:
+Instead of going north in bedroom:
 	if player is not wearing pair of glasses:
 		say "You squint down the stairwell. Huh, was the bottom of the stairs always so fuzzy looking? Darn old age.";
 	else if player is wearing pair of glasses:
@@ -78,7 +78,7 @@ Instead of going north:
 		continue the action;
 		
 [holdover for playtest]
-Instead of going east:
+Instead of going east in bedroom:
 	say "You don't feel the need to go to the bathroom right now.";
 	stop the action;
 
