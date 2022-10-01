@@ -132,7 +132,7 @@ The entryway is north of the stairwell.
 The description of the entryway is
 "The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
 
-Your living room lies to your east, and your yard lies to your north."
+Your living room lies to your west, and your yard lies to your north."
 
 [ENTRYWAY OBJECTS]
 
@@ -160,17 +160,73 @@ The description of the magnifying glass is
 
 [-----------------------------------------------------------------------------------------------]
 
-[living room room set up]
+[IN PROGRESS]
+
+[LIVING ROOM]
+
 The living room is a room.
 The living room is west of the entryway.
-[room objects]
-The television is a device in the living room.
-The coffee table is a supporter in the living room.
-The couch is a supporter in the living room.
-The north window is a scenery in the living room.
-The south window is a scenery in the living room.
-The kitchen alcove is a scenery in the living room.
+The description of the living room is
+"You're cozy living room. It follows the same general decor of the rest of your home; some might call it old, others might call it retro. It's okay, it's enough for you. A simple couch and coffee table - on which your gardening books are sprawled across, a television - for which you don't often find much use, and the north and south windows which frame the space. Tucked in the corner of the space is a small kitchen alcove.
 
+Your entryway lies to your east. "
+
+[LIVING ROOM OBJECTS]
+
+[television tree]
+The television is an undescribed fixed in place device in the living room.
+The description of the television is
+"You don't believe you've gotten a new television for a while. Your children tell you often that there are these new ways to watch television? Net-something? Well, whatever it is, your television can't do it. What do you need that for anyway? You barely use this thing anyway."
+
+[coffee table tree]
+The coffee table is an undescribed fixed in place supporter in the living room.
+The description of the coffee table is
+"A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - 'Tomato Tips' by Camron Gonzalez, 'Planter Aesthetics' by Jet Vellinga, and 'Pesky Pests' by Priscilla Xu."
+
+The gardening books are an undescribed fixed in place object on the coffee table.
+The description of the gardening books is
+"There are quite a few here, you'll have to be more specific."
+
+Tomato Tips by Camron Gonzalez is an undescribed object on the coffee table.
+The description of Tomato Tips by Camron Gonzalez is
+"The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden."
+
+Planter Aesthetics by Jet Vellinga is an undescribed object on the coffee table.
+The description of Planter Aesthetics by Jet Vellinga is
+"The cover of the work depicts two planters in parallel orientation. You modeled your own garden off of this work, and it shows."
+
+Pesky Pests by Priscilla Xu is an undescribed object on the coffee table.
+The description of Pesky Pests by Priscilla Xu is
+"The cover of the work depicts a variety of woodland creatures all racing towards a garden bathed in pale sunlight. This tome is essential - it's your art of war, your battle strategy, all the information you need to protect your precious garden."
+
+[couch tree]
+The couch is an undescribed fixed in place supporter in the living room.
+The description of the couch is
+"A quaint little two seater couch. A great resting place in between garden excursions."
+
+[north window tree]
+The north window is an undescribed scenery in the living room.
+The description of the north window is
+"It looks out onto your front yard, and the hustle and bustle of the city beyond it. Though, you can't see much anymore through it, as it's been weathered and tinted with age."
+
+[south window tree]
+The south window is an undescribed scenery in the living room.
+The description of the south window is
+"It looks out onto the brick wall of the building behind you. Hardly any light gets through here. Not since that damn skyscraper went up behind your rowhouse however many years ago."
+
+[kitchen alcove tree]
+The kitchen alcove is an undescribed scenery in the living room.
+The description of the kitchen is
+"The kitchen alcove is the perfect size for you to test out new dishes with your garden ingredients, but not quite big enough to host. That's why you go over to your children's houses - well, when they invite you over. It feels like it's been a while, but you're probably just misremembering.
+
+No need to head over there now, you aren't feeling particularly hungry."
+
+[LIVING ROOM ACTIONS]
+
+Instead of entering couch:
+	say "No reason to take a break now.";
+	stop the action;
+	
 [-----------------------------------------------------------------------------------------------]
 
 [YARD ROOM]
@@ -252,6 +308,21 @@ Check magnifying:
 			say "On close inspection, nothing looks out of the ordinary...";
 	else:
 		say "You need a tool with which to magnify things...";
+
+[decoupling read from examine]
+Understand the command "read" as something new.
+Reading is an action applying to one visible thing.
+Understand "read [something]" as reading.
+
+Check reading:
+	If noun is Tomato Tips by Camron Gonzalez:
+		say "test 1.";
+	else if noun is Planter Aesthetics by Jet Vellinga:
+		say "test 2.";
+	else if noun is Pesky Pests by Priscilla Xu:
+		say "test 3.";
+	else:
+		say "not readable."
 
 [-----------------------------------------------------------------------------------------------]
 

@@ -10,7 +10,7 @@
 
 ns1-environmental-mystery
 An Interactive Fiction by jd calvelli
-Release 1 / Serial number 220930 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 221001 / Inform 7 v10.1.2 / D
 
 bedroom
 You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
@@ -32,6 +32,7 @@ Your bathroom lies to your east, and the stairwell down to the rest of your home
             <child nodeId="node-1079"></child>
             <child nodeId="node-1078"></child>
             <child nodeId="node-1066"></child>
+            <child nodeId="node-1201"></child>
             <child nodeId="node-1062"></child>
             <child nodeId="node-1060"></child>
             <child nodeId="node-1058"></child>
@@ -200,12 +201,11 @@ stairwell
 You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
 
 &gt;[7] n
-Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
 entryway
 The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
 
-Your living room lies to your east, and your yard lies to your north.
+Your living room lies to your west, and your yard lies to your north.
 
 &gt;</result>
         <commentary xml:space="preserve">[1] examine nightstand
@@ -216,8 +216,10 @@ Your living room lies to your east, and your yard lies to your north.
 [6] n
 [7] n
 </commentary>
-        <children><child nodeId="node-1040"></child>
+        <children><child nodeId="node-1195"></child>
+            <child nodeId="node-1040"></child>
             <child nodeId="node-1024"></child>
+            <child nodeId="node-1211"></child>
             <child nodeId="node-1018"></child>
         </children>
     </item>
@@ -277,6 +279,62 @@ The left planter is there, the right planter is there, your fence is still there
 You devour the entire plant. The taste is just so divine. What a shame, now you know for sure that the plant would have won first place at the county fair...
 
 That's plainly inedible.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+living room
+You're cozy living room. It follows the same general decor of the rest of your home; some might call it old, others might call it retro. It's okay, it's enough for you. A simple couch and coffee table - on which your gardening books are sprawled across, a television - for which you don't often find much use, and the north and south windows which frame the space. Tucked in the corner of the space is a small kitchen alcove.
+
+Your entryway lies to your east. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">read kitchen</command>
+        <result xml:space="preserve">not readable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">examine coffee table</command>
+        <result xml:space="preserve">A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - "Tomato Tips" by Camron Gonzalez, "Planter Aesthetics" by Jet Vellinga, and "Pesky Pests" by Priscilla Xu.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">read tomato tips</command>
+        <result xml:space="preserve">test 1.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">read planter aesthetics</command>
+        <result xml:space="preserve">test 2.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">read pesky pests</command>
+        <result xml:space="preserve">test 3.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -565,6 +623,62 @@ You must find out who did this to your lovelies. There must be justice.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+living room
+You're cozy living room. It follows the same general decor of the rest of your home; some might call it old, others might call it retro. It's okay, it's enough for you. A simple couch and coffee table - on which your gardening books are sprawled across, a television - for which you don't often find much use, and the north and south windows which frame the space. Tucked in the corner of the space is a small kitchen alcove.
+
+Your entryway lies to your east. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">examine coffee table</command>
+        <result xml:space="preserve">A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - "Tomato Tips" by Camron Gonzalez, "Planter Aesthetics" by Jet Vellinga, and "Pesky Pests" by Priscilla Xu.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">examine tomato tips</command>
+        <result xml:space="preserve">The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">read tomato tips</command>
+        <result xml:space="preserve">The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1054">
         <command xml:space="preserve">test</command>
         <result xml:space="preserve">&gt;--&gt; The following tests are available:
@@ -694,6 +808,21 @@ You can see a closet (closed) here.
 yard
 You can see a left planter (on which is a ruined tomatoes) and a right planter (on which is a basil) here.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">read bathroom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">read dresser</command>
+        <result xml:space="preserve">test
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
