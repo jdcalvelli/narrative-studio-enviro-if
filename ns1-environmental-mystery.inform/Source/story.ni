@@ -4,6 +4,13 @@ Release along with interpreter.
 
 [-----------------------------------------------------------------------------------------------]
 
+[GLOBAL VARS]
+
+The information tally is a number variable.
+The information tally is 0.
+
+[-----------------------------------------------------------------------------------------------]
+
 [BEDROOM ROOM]
 
 The bedroom is a room.
@@ -304,6 +311,7 @@ Check magnifying:
 	if player has magnifying glass:
 		if noun is ruined tomatoes:
 			say "Using the magnifying glass, you can see what look like two semicircular rings of small holes on many of the ruined tomatoes. Bite marks! But of what? One step closer to justice...";
+			Now the information tally is 1;
 		else:
 			say "On close inspection, nothing looks out of the ordinary...";
 	else:
@@ -320,11 +328,27 @@ Check reading:
 	else if noun is Planter Aesthetics by Jet Vellinga:
 		say "You flip open to an earmarked page which reads: 'The art of planter placement is an underappreciated necessity. Bad placement can have horrifying effects on your resultant plants. Too much sun? Plants buckle under the heat. Too little sun? Plants wither away. And what determines the light level? Planter placement...'";
 	else if noun is Pesky Pests by Priscilla Xu:
-		say "You flip open to an earmarked page which reads: 'Many woodland creatures will attempt to destroy the sanctity of your garden. They will come, and when they do, let this book be a guide in your fight against them.'
+		if information tally is not 1:
+			say "You flip open to an earmarked page which reads: 'Many woodland creatures will attempt to destroy the sanctity of your garden. They will come, and when they do, let this book be a guide in your fight against them.'
 		
 		This one seems particularly useful...Well, at least more so than the other two you've been perusing recently.";
+		else:
+			say "You flip through all the pages to see if you can find a matching bite mark to that seen on your poor tomatoes. Suddenly - there it is, clear as day! The bite marks match almost exactly to...
+			
+			Those of a racoon! It seems you've found your culprit!";
+			Now the information tally is 2;
 	else:
 		say "It doesn't seem like there is much of anything to read here."
+
+[-----------------------------------------------------------------------------------------------]
+
+[END STATE LOGIC]
+
+An every turn rule:
+	if the information tally is 2:
+		say "Mystery solved! You put on your jacket and head out into the city to find some non-harmful racoon traps to ensure the safety of your precious tomatoes going forward.";
+		say "[line break]Thank you so much for playing!";
+		end the story;
 
 [-----------------------------------------------------------------------------------------------]
 

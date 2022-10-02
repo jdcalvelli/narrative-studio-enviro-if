@@ -346,7 +346,176 @@ Your entryway lies to your east.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1025"></child>
+            <child nodeId="node-1226"></child>
         </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">unlock toolbox</command>
+        <result xml:space="preserve">What do you want to unlock the shiny red toolbox with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">keys</command>
+        <result xml:space="preserve">You unlock the shiny red toolbox.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">take magnifying glass</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">examine toolbox</command>
+        <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. The toolbox is closed. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">open toolbox</command>
+        <result xml:space="preserve">You open the shiny red toolbox, revealing a spade, a bag of seeds and a magnifying glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">take magnifying glass</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+yard
+You step out into your yard, ready to bask in the glory of your wonderous garden. However, as you are taking your time down the cobblestone path, you can't help but shake the feeling that something isn't right. It feels as though something has changed, been disturbed.
+
+The left planter is there, the right planter is there, your fence is still there, blocking your place of serenity from the hustle and bustle of the city beyond. But still...something seems wrong.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">examine planter</command>
+        <result xml:space="preserve">Which do you mean, the left planter or the right planter?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">left</command>
+        <result xml:space="preserve">Oh no...
+
+Oh, the horror...
+
+You're tomatoes...they're...
+
+They're ruined.
+
+The scene of the crime is grizzly. Tomatoes scattered and torn off of their stems, squashed and leaking their delicious innards...You have to look away, it's too graphic.
+
+You must find out who did this to your lovelies. There must be justice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">take tomatoes</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">magnify tomatoes</command>
+        <result xml:space="preserve">Using the magnifying glass, you can see what look like two semicircular rings of small holes on many of the ruined tomatoes. Bite marks! But of what? One step closer to justice...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+entryway
+The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+
+Your living room lies to your west, and your yard lies to your north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+living room
+You're cozy living room. It follows the same general decor of the rest of your home; some might call it old, others might call it retro. It's okay, it's enough for you. A simple couch and coffee table - on which your gardening books are sprawled across, a television - for which you don't often find much use, and the north and south windows which frame the space. Tucked in the corner of the space is a small kitchen alcove.
+
+Your entryway lies to your east. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">examine coffee table</command>
+        <result xml:space="preserve">A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - "Tomato Tips" by Camron Gonzalez, "Planter Aesthetics" by Jet Vellinga, and "Pesky Pests" by Priscilla Xu.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">read pesky pests</command>
+        <result xml:space="preserve">You flip through all the pages to see if you can find a matching bite mark to that seen on your poor tomatoes. Suddenly - there it is, clear as day! The bite marks match almost exactly to...
+
+Those of a racoon! It seems you've found your culprit!
+
+Mystery solved! You put on your jacket and head out into the city to find some non-harmful racoon traps to ensure the safety of your precious tomatoes going forward.
+Thank you so much for playing!
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1025">
         <command xml:space="preserve">examine closet</command>
