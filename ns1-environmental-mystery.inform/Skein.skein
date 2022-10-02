@@ -8,16 +8,14 @@
 
 
 
-ns1-environmental-mystery
+Pomodori
 An Interactive Fiction by jd calvelli
 Release 1 / Serial number 221002 / Inform 7 v10.1.2 / D
 
 bedroom
 You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
 
-You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy.
-
-Your bathroom lies to your east, and the stairwell down to the rest of your home is to your north.
+You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -198,7 +196,7 @@ Taken.
 Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
 stairwell
-You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
+You amble your way on the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
 
 &gt;[7] n
 
@@ -294,7 +292,44 @@ Your entryway lies to your east.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1212"></child>
+            <child nodeId="node-1263"></child>
         </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">sit couch</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+        </children>
+    </item>
+    <item nodeId="node-1264">
+        <command xml:space="preserve">sit on couch</command>
+        <result xml:space="preserve">You just woke up, lazybones! No reason to take a break now!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1265"></child>
+        </children>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">switch on television</command>
+        <result xml:space="preserve">You'd rather not watch television right now. There's nothing good on cable these days anyway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1266"></child>
+        </children>
+    </item>
+    <item nodeId="node-1266">
+        <command xml:space="preserve">watch television</command>
+        <result xml:space="preserve">You don't believe you've gotten a new television for a while. Your children tell you often that there are these new ways to watch television? Net-something? Well, whatever it is, your television can't do it. What do you need that for anyway? You barely use this thing anyway.
+
+The television is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1212">
         <command xml:space="preserve">read kitchen</command>
@@ -1117,6 +1152,7 @@ You put on the set of work clothes.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1082"></child>
+            <child nodeId="node-1242"></child>
             <child nodeId="node-1080"></child>
         </children>
     </item>
@@ -1132,6 +1168,102 @@ You put on the set of work clothes.
     <item nodeId="node-1081">
         <command xml:space="preserve">x banister</command>
         <result xml:space="preserve">You see nothing special about the banister.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">test getoutofbedroom</command>
+        <result xml:space="preserve">(Testing.)
+
+&gt;[1] examine nightstand
+Your nightstand. Pretty sure your mother's mother gave it to your mother, who gave it to you. Regardless, it's been in the family forever, but now it serves its spectacular purpose as a central location for your pair of glasses. So that you don't forget them, of course.
+
+&gt;[2] wear glasses
+(first taking the pair of glasses)
+The world comes into focus - no more squinting necessary. Ready to take on the day at full strength! Well, as full strength as you can muster at your age!
+
+You put on the pair of glasses.
+
+&gt;[3] open dresser
+You open the dresser, revealing a set of work clothes.
+
+&gt;[4] wear work clothes
+(first taking the set of work clothes)
+As you move to put on your clothes, you hear something jingling in the pockets of your cargo shorts. Oh boy, you left your keys in your pants again? Silly you!
+
+You put on the set of work clothes.
+
+&gt;[5] take set of keys
+Taken.
+
+&gt;[6] n
+Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
+
+stairwell
+You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
+
+&gt;[7] n
+
+entryway
+The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+
+Your living room lies to your west, and your yard lies to your north.
+
+&gt;</result>
+        <commentary xml:space="preserve">[1] examine nightstand
+[2] wear glasses
+[3] open dresser
+[4] wear work clothes
+[5] take set of keys
+[6] n
+[7] n
+</commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+stairwell
+You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+entryway
+The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+
+Your living room lies to your west, and your yard lies to your north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+stairwell
+You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+bedroom
+Back in your bedroom.
+
+Your bathroom lies to your east, and the stairwell down to the rest of your home is to your north.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

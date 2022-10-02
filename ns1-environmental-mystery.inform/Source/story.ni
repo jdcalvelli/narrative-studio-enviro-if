@@ -1,4 +1,4 @@
-"ns1-environmental-mystery" by jd calvelli
+"Pomodori" by jd calvelli
 
 Release along with interpreter.
 
@@ -15,9 +15,9 @@ The information tally is 0.
 
 The bedroom is a room.
 The description of the bedroom is 
-"You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
+"[if unvisited]You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
 
-You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy.
+You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy. [else if visited]You make your way back into your bedroom.
 
 Your bathroom lies to your east, and the stairwell down to the rest of your home is to your north."
 
@@ -84,24 +84,16 @@ Instead of going north in bedroom:
 		say "Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.";
 		continue the action;
 		
-[holdover for playtest]
 Instead of going east in bedroom:
 	say "You don't feel the need to go to the bathroom right now.";
 	stop the action;
 
 [-----------------------------------------------------------------------------------------------]
 
-[to do for post playtest]
+[BATHROOM ROOM]
 
-[bathroom room set up]
 The bathroom is a room.
 The bathroom is east of the bedroom.
-[room objects]
-The shower is a scenery in the bathroom.
-The bidet is a scenery in the bathroom.
-The toilet is a scenery in the bathroom.
-The sink is a scenery in the bathroom.
-The mirror is a scenery in the bathroom.
 
 [-----------------------------------------------------------------------------------------------]
 
@@ -110,7 +102,7 @@ The mirror is a scenery in the bathroom.
 The stairwell is a room.
 The stairwell is north of the bedroom.
 The description of the stairwell is
-"You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest."
+"You amble your way on the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest."
 
 [STAIRWELL OBJECTS]
 
@@ -188,7 +180,9 @@ The description of the television is
 [coffee table tree]
 The coffee table is an undescribed fixed in place supporter in the living room.
 The description of the coffee table is
-"A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - 'Tomato Tips' by Camron Gonzalez, 'Planter Aesthetics' by Jet Vellinga, and 'Pesky Pests' by Priscilla Xu."
+"A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - 
+
+'Tomato Tips' by Camron Gonzalez, 'Planter Aesthetics' by Jet Vellinga, and 'Pesky Pests' by Priscilla Xu."
 
 The gardening books are an undescribed fixed in place object on the coffee table.
 The description of the gardening books is
@@ -196,15 +190,15 @@ The description of the gardening books is
 
 Tomato Tips by Camron Gonzalez is an undescribed object on the coffee table.
 The description of Tomato Tips by Camron Gonzalez is
-"The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden."
+"The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden. It makes you want to read it!"
 
 Planter Aesthetics by Jet Vellinga is an undescribed object on the coffee table.
 The description of Planter Aesthetics by Jet Vellinga is
-"The cover of the work depicts two planters in parallel orientation. You modeled your own garden off of this work, and it shows."
+"The cover of the work depicts two planters in parallel orientation. You modeled your own garden off of this work, and it shows. It makes you want to read it!"
 
 Pesky Pests by Priscilla Xu is an undescribed object on the coffee table.
 The description of Pesky Pests by Priscilla Xu is
-"The cover of the work depicts a variety of woodland creatures all racing towards a garden bathed in pale sunlight. This tome is essential - it's your art of war, your battle strategy, all the information you need to protect your precious garden."
+"The cover of the work depicts a variety of woodland creatures all racing towards a garden bathed in pale sunlight. This tome is essential - it's your art of war, your battle strategy, all the information you need to protect your precious garden. It makes you want to read it!"
 
 [couch tree]
 The couch is an undescribed fixed in place supporter in the living room.
@@ -231,7 +225,15 @@ No need to head over there now, you aren't feeling particularly hungry."
 [LIVING ROOM ACTIONS]
 
 Instead of entering couch:
-	say "No reason to take a break now.";
+	say "You just woke up, lazybones! No reason to take a break now!";
+	stop the action;
+	
+Instead of entering coffee table:
+	say "You might have been willing to sit on a coffee table in your younger days, but now, you aren't sure if you'd be able to get up again! Besides, you dont want to put your books in disarray."
+	
+	
+Instead of switching on the television:
+	say "You'd rather not watch television right now. There's nothing good on cable these days anyway.";
 	stop the action;
 	
 [-----------------------------------------------------------------------------------------------]
