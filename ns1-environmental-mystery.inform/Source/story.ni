@@ -316,13 +316,15 @@ Understand "read [something]" as reading.
 
 Check reading:
 	If noun is Tomato Tips by Camron Gonzalez:
-		say "test 1.";
+		say "You flip open to an earmarked page which reads, 'What is most critical when growing tomatoes? Well, without a doubt, it is showering your plants with love and affection. An unloved plant is aware that they are unloved - and their sadness is reflected in the fruits they bare...'";
 	else if noun is Planter Aesthetics by Jet Vellinga:
-		say "test 2.";
+		say "You flip open to an earmarked page which reads: 'The art of planter placement is an underappreciated necessity. Bad placement can have horrifying effects on your resultant plants. Too much sun? Plants buckle under the heat. Too little sun? Plants wither away. And what determines the light level? Planter placement...'";
 	else if noun is Pesky Pests by Priscilla Xu:
-		say "test 3.";
+		say "You flip open to an earmarked page which reads: 'Many woodland creatures will attempt to destroy the sanctity of your garden. They will come, and when they do, let this book be a guide in your fight against them.'
+		
+		This one seems particularly useful...Well, at least more so than the other two you've been perusing recently.";
 	else:
-		say "not readable."
+		say "It doesn't seem like there is much of anything to read here."
 
 [-----------------------------------------------------------------------------------------------]
 
