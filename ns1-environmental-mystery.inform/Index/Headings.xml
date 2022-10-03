@@ -1246,4 +1246,165 @@
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
+    <key>178</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>--</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>179</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>8</integer>
+        <key>Title</key><string>Chapter 1 - Run-time errors</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>180</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>14</integer>
+        <key>Title</key><string>Chapter 2 - Interpreter handshake</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>181</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>47</integer>
+        <key>Title</key><string>Chapter 3 - JavaScript code execution</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>182</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>49</integer>
+        <key>Title</key><string>Section 1 - Executing code</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>183</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>60</integer>
+        <key>Title</key><string>Section 2 - Return values</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>184</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>173</integer>
+        <key>Title</key><string>Section 3 - Escaping text for JavaScript</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>185</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>244</integer>
+        <key>Title</key><string>Chapter 4 - HTML tags</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>186</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>246</integer>
+        <key>Title</key><string>Section 1 - Opening and closing</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>187</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>258</integer>
+        <key>Title</key><string>Section 2 - Placing elements</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>188</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>297</integer>
+        <key>Title</key><string>Section 3 - Displaying content</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>189</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>307</integer>
+        <key>Title</key><string>Section 4 - Output focus</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>190</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>316</integer>
+        <key>Title</key><string>Section 5 - Counting and testing for existence</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>191</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>333</integer>
+        <key>Title</key><string>Section 6 - Scrolling</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>192</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>342</integer>
+        <key>Title</key><string>Section 7 - Line break workarounds</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>193</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>351</integer>
+        <key>Title</key><string>Chapter 5 - User Interface rulebooks</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>194</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>353</integer>
+        <key>Title</key><string>Section 1 - Interface setup rules</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>195</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>367</integer>
+        <key>Title</key><string>Section 2 - Interface update rules</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>196</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>374</integer>
+        <key>Title</key><string>Chapter 6 - Prompt</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>197</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>447</integer>
+        <key>Title</key><string>Chapter 7 - Unique identifiers</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>198</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>457</integer>
+        <key>Title</key><string>Chapter 8 - UI blocking</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>199</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>466</integer>
+        <key>Title</key><string>Chapter 9 - Window title</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>200</key><dict>
+        <key>Filename</key><string>/Users/jdcalvelli/Documents/personal-projects/inform/narrative-studio-1-enviro-if/ns1-environmental-mystery.materials/Extensions/Juhana Leinonen/Vorple.i7x</string>
+        <key>Line</key><integer>472</integer>
+        <key>Title</key><string>Chapter 10 - Credits</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
 </dict></plist>

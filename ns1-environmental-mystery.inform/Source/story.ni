@@ -1,6 +1,13 @@
-"Pomodori" by jd calvelli
+The story title is "pomodori".
+The story author is "jd calvelli".
+The story headline is "an interactive mystery".
+The release number is 1.
+The story creation year is 2022.
 
-Release along with interpreter.
+Release along with cover art ("A cartoon tomato.").
+
+Include Vorple by Juhana Leinonen.
+Release along with the "Vorple" interpreter.
 
 [-----------------------------------------------------------------------------------------------]
 

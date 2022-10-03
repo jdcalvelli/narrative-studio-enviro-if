@@ -8,8 +8,8 @@
 
 
 
-Pomodori
-An Interactive Fiction by jd calvelli
+pomodori
+an interactive mystery by jd calvelli
 Release 1 / Serial number 221002 / Inform 7 v10.1.2 / D
 
 bedroom
@@ -19,22 +19,22 @@ You yawn and stretch, being extra careful not to sprain your back...again, and s
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1126"></child>
-            <child nodeId="node-1123"></child>
-            <child nodeId="node-1114"></child>
-            <child nodeId="node-1113"></child>
+        <children><child nodeId="node-1164"></child>
+            <child nodeId="node-1161"></child>
+            <child nodeId="node-1152"></child>
+            <child nodeId="node-1151"></child>
+            <child nodeId="node-1149"></child>
+            <child nodeId="node-1142"></child>
+            <child nodeId="node-1140"></child>
+            <child nodeId="node-1126"></child>
+            <child nodeId="node-1112"></child>
             <child nodeId="node-1111"></child>
-            <child nodeId="node-1104"></child>
-            <child nodeId="node-1102"></child>
-            <child nodeId="node-1088"></child>
-            <child nodeId="node-1079"></child>
-            <child nodeId="node-1078"></child>
-            <child nodeId="node-1066"></child>
-            <child nodeId="node-1201"></child>
-            <child nodeId="node-1062"></child>
-            <child nodeId="node-1060"></child>
-            <child nodeId="node-1058"></child>
-            <child nodeId="node-1054"></child>
+            <child nodeId="node-1099"></child>
+            <child nodeId="node-1097"></child>
+            <child nodeId="node-1093"></child>
+            <child nodeId="node-1091"></child>
+            <child nodeId="node-1089"></child>
+            <child nodeId="node-1085"></child>
             <child nodeId="node-1017"></child>
             <child nodeId="node-1003"></child>
         </children>
@@ -214,10 +214,10 @@ Your living room lies to your west, and your yard lies to your north.
 [6] n
 [7] n
 </commentary>
-        <children><child nodeId="node-1195"></child>
-            <child nodeId="node-1040"></child>
+        <children><child nodeId="node-1079"></child>
+            <child nodeId="node-1065"></child>
+            <child nodeId="node-1034"></child>
             <child nodeId="node-1024"></child>
-            <child nodeId="node-1211"></child>
             <child nodeId="node-1018"></child>
         </children>
     </item>
@@ -281,7 +281,7 @@ That's plainly inedible.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1211">
+    <item nodeId="node-1024">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 living room
@@ -291,38 +291,38 @@ Your entryway lies to your east.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1212"></child>
-            <child nodeId="node-1263"></child>
+        <children><child nodeId="node-1029"></child>
+            <child nodeId="node-1025"></child>
         </children>
     </item>
-    <item nodeId="node-1263">
+    <item nodeId="node-1025">
         <command xml:space="preserve">sit couch</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1264"></child>
+        <children><child nodeId="node-1026"></child>
         </children>
     </item>
-    <item nodeId="node-1264">
+    <item nodeId="node-1026">
         <command xml:space="preserve">sit on couch</command>
         <result xml:space="preserve">You just woke up, lazybones! No reason to take a break now!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1265"></child>
+        <children><child nodeId="node-1027"></child>
         </children>
     </item>
-    <item nodeId="node-1265">
+    <item nodeId="node-1027">
         <command xml:space="preserve">switch on television</command>
         <result xml:space="preserve">You'd rather not watch television right now. There's nothing good on cable these days anyway.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1266"></child>
+        <children><child nodeId="node-1028"></child>
         </children>
     </item>
-    <item nodeId="node-1266">
+    <item nodeId="node-1028">
         <command xml:space="preserve">watch television</command>
         <result xml:space="preserve">You don't believe you've gotten a new television for a while. Your children tell you often that there are these new ways to watch television? Net-something? Well, whatever it is, your television can't do it. What do you need that for anyway? You barely use this thing anyway.
 
@@ -331,114 +331,114 @@ The television is currently switched off.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1212">
+    <item nodeId="node-1029">
         <command xml:space="preserve">read kitchen</command>
         <result xml:space="preserve">not readable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1213"></child>
+        <children><child nodeId="node-1030"></child>
         </children>
     </item>
-    <item nodeId="node-1213">
+    <item nodeId="node-1030">
         <command xml:space="preserve">examine coffee table</command>
         <result xml:space="preserve">A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - "Tomato Tips" by Camron Gonzalez, "Planter Aesthetics" by Jet Vellinga, and "Pesky Pests" by Priscilla Xu.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1214"></child>
+        <children><child nodeId="node-1031"></child>
         </children>
     </item>
-    <item nodeId="node-1214">
+    <item nodeId="node-1031">
         <command xml:space="preserve">read tomato tips</command>
         <result xml:space="preserve">test 1.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1215"></child>
+        <children><child nodeId="node-1032"></child>
         </children>
     </item>
-    <item nodeId="node-1215">
+    <item nodeId="node-1032">
         <command xml:space="preserve">read planter aesthetics</command>
         <result xml:space="preserve">test 2.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1216"></child>
+        <children><child nodeId="node-1033"></child>
         </children>
     </item>
-    <item nodeId="node-1216">
+    <item nodeId="node-1033">
         <command xml:space="preserve">read pesky pests</command>
         <result xml:space="preserve">test 3.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1024">
+    <item nodeId="node-1034">
         <command xml:space="preserve">open closet</command>
         <result xml:space="preserve">You open the closet, revealing a shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1025"></child>
-            <child nodeId="node-1226"></child>
+        <children><child nodeId="node-1050"></child>
+            <child nodeId="node-1035"></child>
         </children>
     </item>
-    <item nodeId="node-1226">
+    <item nodeId="node-1035">
         <command xml:space="preserve">unlock toolbox</command>
         <result xml:space="preserve">What do you want to unlock the shiny red toolbox with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1227"></child>
+        <children><child nodeId="node-1036"></child>
         </children>
     </item>
-    <item nodeId="node-1227">
+    <item nodeId="node-1036">
         <command xml:space="preserve">keys</command>
         <result xml:space="preserve">You unlock the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1228"></child>
+        <children><child nodeId="node-1037"></child>
         </children>
     </item>
-    <item nodeId="node-1228">
+    <item nodeId="node-1037">
         <command xml:space="preserve">take magnifying glass</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1229"></child>
+        <children><child nodeId="node-1038"></child>
         </children>
     </item>
-    <item nodeId="node-1229">
+    <item nodeId="node-1038">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. The toolbox is closed. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1230"></child>
+        <children><child nodeId="node-1039"></child>
         </children>
     </item>
-    <item nodeId="node-1230">
+    <item nodeId="node-1039">
         <command xml:space="preserve">open toolbox</command>
         <result xml:space="preserve">You open the shiny red toolbox, revealing a spade, a bag of seeds and a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1231"></child>
+        <children><child nodeId="node-1040"></child>
         </children>
     </item>
-    <item nodeId="node-1231">
+    <item nodeId="node-1040">
         <command xml:space="preserve">take magnifying glass</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1232"></child>
+        <children><child nodeId="node-1041"></child>
         </children>
     </item>
-    <item nodeId="node-1232">
+    <item nodeId="node-1041">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 yard
@@ -448,19 +448,19 @@ The left planter is there, the right planter is there, your fence is still there
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1233"></child>
+        <children><child nodeId="node-1042"></child>
         </children>
     </item>
-    <item nodeId="node-1233">
+    <item nodeId="node-1042">
         <command xml:space="preserve">examine planter</command>
         <result xml:space="preserve">Which do you mean, the left planter or the right planter?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1234"></child>
+        <children><child nodeId="node-1043"></child>
         </children>
     </item>
-    <item nodeId="node-1234">
+    <item nodeId="node-1043">
         <command xml:space="preserve">left</command>
         <result xml:space="preserve">Oh no...
 
@@ -476,28 +476,28 @@ You must find out who did this to your lovelies. There must be justice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1235"></child>
+        <children><child nodeId="node-1044"></child>
         </children>
     </item>
-    <item nodeId="node-1235">
+    <item nodeId="node-1044">
         <command xml:space="preserve">take tomatoes</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1236"></child>
+        <children><child nodeId="node-1045"></child>
         </children>
     </item>
-    <item nodeId="node-1236">
+    <item nodeId="node-1045">
         <command xml:space="preserve">magnify tomatoes</command>
         <result xml:space="preserve">Using the magnifying glass, you can see what look like two semicircular rings of small holes on many of the ruined tomatoes. Bite marks! But of what? One step closer to justice...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1237"></child>
+        <children><child nodeId="node-1046"></child>
         </children>
     </item>
-    <item nodeId="node-1237">
+    <item nodeId="node-1046">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 entryway
@@ -507,10 +507,10 @@ Your living room lies to your west, and your yard lies to your north.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1238"></child>
+        <children><child nodeId="node-1047"></child>
         </children>
     </item>
-    <item nodeId="node-1238">
+    <item nodeId="node-1047">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 living room
@@ -520,19 +520,19 @@ Your entryway lies to your east.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1239"></child>
+        <children><child nodeId="node-1048"></child>
         </children>
     </item>
-    <item nodeId="node-1239">
+    <item nodeId="node-1048">
         <command xml:space="preserve">examine coffee table</command>
         <result xml:space="preserve">A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - "Tomato Tips" by Camron Gonzalez, "Planter Aesthetics" by Jet Vellinga, and "Pesky Pests" by Priscilla Xu.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1240"></child>
+        <children><child nodeId="node-1049"></child>
         </children>
     </item>
-    <item nodeId="node-1240">
+    <item nodeId="node-1049">
         <command xml:space="preserve">read pesky pests</command>
         <result xml:space="preserve">You flip through all the pages to see if you can find a matching bite mark to that seen on your poor tomatoes. Suddenly - there it is, clear as day! The bite marks match almost exactly to...
 
@@ -552,7 +552,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1025">
+    <item nodeId="node-1050">
         <command xml:space="preserve">examine closet</command>
         <result xml:space="preserve">A simple, accordion folding wooden closet. The closet is folded away, revealing a mish-mash of various items you can't really make heads or tails of. However, perched precariously on top of the chaos is shiny red toolbox.
 
@@ -560,108 +560,108 @@ In the closet is a shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1033"></child>
-            <child nodeId="node-1026"></child>
+        <children><child nodeId="node-1058"></child>
+            <child nodeId="node-1051"></child>
         </children>
     </item>
-    <item nodeId="node-1026">
+    <item nodeId="node-1051">
         <command xml:space="preserve">open toolbox</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1027"></child>
+        <children><child nodeId="node-1052"></child>
         </children>
     </item>
-    <item nodeId="node-1027">
+    <item nodeId="node-1052">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. It seems locked shut. Now where did I put my darn keys... 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1028"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-1028">
+    <item nodeId="node-1053">
         <command xml:space="preserve">unlock toolbox</command>
         <result xml:space="preserve">What do you want to unlock the shiny red toolbox with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-1029">
+    <item nodeId="node-1054">
         <command xml:space="preserve">keys</command>
         <result xml:space="preserve">You unlock the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1030"></child>
+        <children><child nodeId="node-1055"></child>
         </children>
     </item>
-    <item nodeId="node-1030">
+    <item nodeId="node-1055">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. The toolbox is closed. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1031"></child>
+        <children><child nodeId="node-1056"></child>
         </children>
     </item>
-    <item nodeId="node-1031">
+    <item nodeId="node-1056">
         <command xml:space="preserve">open toolbox</command>
         <result xml:space="preserve">You open the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1032"></child>
+        <children><child nodeId="node-1057"></child>
         </children>
     </item>
-    <item nodeId="node-1032">
+    <item nodeId="node-1057">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside the open toolbox you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1033">
+    <item nodeId="node-1058">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. It seems locked shut. Now where did I put my darn keys... 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1034"></child>
+        <children><child nodeId="node-1059"></child>
         </children>
     </item>
-    <item nodeId="node-1034">
+    <item nodeId="node-1059">
         <command xml:space="preserve">unlock toolbox</command>
         <result xml:space="preserve">What do you want to unlock the shiny red toolbox with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
+        <children><child nodeId="node-1060"></child>
         </children>
     </item>
-    <item nodeId="node-1035">
+    <item nodeId="node-1060">
         <command xml:space="preserve">keys</command>
         <result xml:space="preserve">You unlock the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1036"></child>
+        <children><child nodeId="node-1061"></child>
         </children>
     </item>
-    <item nodeId="node-1036">
+    <item nodeId="node-1061">
         <command xml:space="preserve">open toolbox</command>
         <result xml:space="preserve">You open the shiny red toolbox, revealing a spade, a bag of seeds and a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1037"></child>
+        <children><child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-1037">
+    <item nodeId="node-1062">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside the open toolbox you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
 
@@ -669,26 +669,26 @@ In the shiny red toolbox are a spade, a bag of seeds and a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1038"></child>
+        <children><child nodeId="node-1063"></child>
         </children>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1063">
         <command xml:space="preserve">take magnifying glass</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1039"></child>
+        <children><child nodeId="node-1064"></child>
         </children>
     </item>
-    <item nodeId="node-1039">
+    <item nodeId="node-1064">
         <command xml:space="preserve">use magnifying glass on spade</command>
         <result xml:space="preserve">On close inspection, nothing looks out of the ordinary...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1040">
+    <item nodeId="node-1065">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
@@ -701,90 +701,90 @@ You can see a left planter and a right planter (on which is a basil) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
-            <child nodeId="node-1041"></child>
+        <children><child nodeId="node-1075"></child>
+            <child nodeId="node-1066"></child>
         </children>
     </item>
-    <item nodeId="node-1041">
+    <item nodeId="node-1066">
         <command xml:space="preserve">open closet</command>
         <result xml:space="preserve">You open the closet, revealing nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
+        <children><child nodeId="node-1067"></child>
         </children>
     </item>
-    <item nodeId="node-1042">
+    <item nodeId="node-1067">
         <command xml:space="preserve">examine closit</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
+        <children><child nodeId="node-1068"></child>
         </children>
     </item>
-    <item nodeId="node-1043">
+    <item nodeId="node-1068">
         <command xml:space="preserve">closet</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
+        <children><child nodeId="node-1069"></child>
         </children>
     </item>
-    <item nodeId="node-1044">
+    <item nodeId="node-1069">
         <command xml:space="preserve">examine closet</command>
         <result xml:space="preserve">A simple, accordion folding wooden closet. The closet is folded away, revealing a mish-mash of various items you can't really make heads or tails of. However, stacked neatly on top of the chaos is shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1045"></child>
+        <children><child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-1045">
+    <item nodeId="node-1070">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. It seems locked shut. Now where did I put my darn keys... 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1046"></child>
+        <children><child nodeId="node-1071"></child>
         </children>
     </item>
-    <item nodeId="node-1046">
+    <item nodeId="node-1071">
         <command xml:space="preserve">unlock toolbox with keys</command>
         <result xml:space="preserve">You unlock the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1047"></child>
+        <children><child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-1047">
+    <item nodeId="node-1072">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. It seems locked shut. Now where did I put my darn keys... 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1048"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-1048">
+    <item nodeId="node-1073">
         <command xml:space="preserve">open toolbox</command>
         <result xml:space="preserve">You open the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1049"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1074">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1075">
         <command xml:space="preserve">examine left planter</command>
         <result xml:space="preserve">Oh no...
 
@@ -800,52 +800,52 @@ You must find out who did this to your lovelies. There must be justice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1053"></child>
-            <child nodeId="node-1051"></child>
+        <children><child nodeId="node-1078"></child>
+            <child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1076">
         <command xml:space="preserve">take tomatoes</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1077"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1077">
         <command xml:space="preserve">examine tomatoes</command>
         <result xml:space="preserve"> You cradle the ruined tomatoes in your arms to spend one last moment with them. At this distance, you can notice that there are some small markings on some of the tomatoes, but your eyes aren't what they used to be. If only you could get even closer...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1053">
+    <item nodeId="node-1078">
         <command xml:space="preserve">examine tomatoes</command>
         <result xml:space="preserve">It breaks your heart to see your lovely tomatoes in such a state. As much as it pains you, you know that you need to be there for them in this moment. You need to learn more to bring the culprit to justice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1195">
+    <item nodeId="node-1079">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1196"></child>
+        <children><child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-1196">
+    <item nodeId="node-1080">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1197"></child>
+        <children><child nodeId="node-1081"></child>
         </children>
     </item>
-    <item nodeId="node-1197">
+    <item nodeId="node-1081">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 living room
@@ -855,45 +855,45 @@ Your entryway lies to your east.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1198"></child>
+        <children><child nodeId="node-1082"></child>
         </children>
     </item>
-    <item nodeId="node-1198">
+    <item nodeId="node-1082">
         <command xml:space="preserve">examine coffee table</command>
         <result xml:space="preserve">A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - "Tomato Tips" by Camron Gonzalez, "Planter Aesthetics" by Jet Vellinga, and "Pesky Pests" by Priscilla Xu.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1199"></child>
+        <children><child nodeId="node-1083"></child>
         </children>
     </item>
-    <item nodeId="node-1199">
+    <item nodeId="node-1083">
         <command xml:space="preserve">examine tomato tips</command>
         <result xml:space="preserve">The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1200"></child>
+        <children><child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-1200">
+    <item nodeId="node-1084">
         <command xml:space="preserve">read tomato tips</command>
         <result xml:space="preserve">The cover of the work depicts a lovely cartoon tomato. Something to aspire towards in your own garden.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1054">
+    <item nodeId="node-1085">
         <command xml:space="preserve">test</command>
         <result xml:space="preserve">&gt;--&gt; The following tests are available:
 'test getoutofbedroom'
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
+        <children><child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-1055">
+    <item nodeId="node-1086">
         <command xml:space="preserve">test getoutofbedroom</command>
         <result xml:space="preserve">(Testing.)
 
@@ -917,19 +917,19 @@ You amble your way down the stairwell, and stop for a minute to catch your breat
 [2] wear glasses
 [3] n
 </commentary>
-        <children><child nodeId="node-1056"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-1056">
+    <item nodeId="node-1087">
         <command xml:space="preserve">examine banister</command>
         <result xml:space="preserve">Taking a quick glance over the banister, you can see your living room down below. It's your second favorite place to be, after your garden, naturally. I mean, where else would you read your gardening books?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1057">
+    <item nodeId="node-1088">
         <command xml:space="preserve">examine pictures</command>
         <result xml:space="preserve">It's always lovely to take a walk down memory lane. You've made a point to take pictures of every moment in your gardening experience that you've been proud of. There have been so many!
 
@@ -942,16 +942,16 @@ Good times all around.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1058">
+    <item nodeId="node-1089">
         <command xml:space="preserve">take window</command>
         <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1059"></child>
+        <children><child nodeId="node-1090"></child>
         </children>
     </item>
-    <item nodeId="node-1059">
+    <item nodeId="node-1090">
         <command xml:space="preserve">unlock chest</command>
         <result xml:space="preserve">(with the window)
 (first taking the window)
@@ -960,42 +960,42 @@ That's hardly portable.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1060">
+    <item nodeId="node-1091">
         <command xml:space="preserve">take glasses</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1061"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-1061">
+    <item nodeId="node-1092">
         <command xml:space="preserve">wear glasses</command>
         <result xml:space="preserve">You put on the glasses.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1062">
+    <item nodeId="node-1093">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1063"></child>
+        <children><child nodeId="node-1094"></child>
         </children>
     </item>
-    <item nodeId="node-1063">
+    <item nodeId="node-1094">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 stairwell
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1064"></child>
+        <children><child nodeId="node-1095"></child>
         </children>
     </item>
-    <item nodeId="node-1064">
+    <item nodeId="node-1095">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 entryway
@@ -1003,10 +1003,10 @@ You can see a closet (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1065"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-1065">
+    <item nodeId="node-1096">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 yard
@@ -1015,41 +1015,41 @@ You can see a left planter (on which is a ruined tomatoes) and a right planter (
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1201">
+    <item nodeId="node-1097">
         <command xml:space="preserve">read bathroom</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1202"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-1202">
+    <item nodeId="node-1098">
         <command xml:space="preserve">read dresser</command>
         <result xml:space="preserve">test
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1066">
+    <item nodeId="node-1099">
         <command xml:space="preserve">open dresser</command>
         <result xml:space="preserve">You open the dresser, revealing a set of work clothes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
-            <child nodeId="node-1067"></child>
+        <children><child nodeId="node-1108"></child>
+            <child nodeId="node-1100"></child>
         </children>
     </item>
-    <item nodeId="node-1067">
+    <item nodeId="node-1100">
         <command xml:space="preserve">take work clothes</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1068"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-1068">
+    <item nodeId="node-1101">
         <command xml:space="preserve">wear work clothes</command>
         <result xml:space="preserve">As you move to put on your clothes, you hear something jingling in the pockets of your cargo shorts. Oh boy, you left your keys in your pants again? Silly you!
 
@@ -1057,29 +1057,29 @@ You put on the set of work clothes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1069"></child>
+        <children><child nodeId="node-1102"></child>
         </children>
     </item>
-    <item nodeId="node-1069">
+    <item nodeId="node-1102">
         <command xml:space="preserve">take keys</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1072"></child>
-            <child nodeId="node-1070"></child>
+        <children><child nodeId="node-1105"></child>
+            <child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-1070">
+    <item nodeId="node-1103">
         <command xml:space="preserve">take keyring</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1071"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-1071">
+    <item nodeId="node-1104">
         <command xml:space="preserve">inventory</command>
         <result xml:space="preserve">You are carrying:
   a keyring
@@ -1088,91 +1088,91 @@ You put on the set of work clothes.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1072">
+    <item nodeId="node-1105">
         <command xml:space="preserve">open chest</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1073"></child>
+        <children><child nodeId="node-1106"></child>
         </children>
     </item>
-    <item nodeId="node-1073">
+    <item nodeId="node-1106">
         <command xml:space="preserve">unlock chest</command>
         <result xml:space="preserve">What do you want to unlock the chest with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1074"></child>
+        <children><child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-1074">
+    <item nodeId="node-1107">
         <command xml:space="preserve">keys</command>
         <result xml:space="preserve">You unlock the chest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1108">
         <command xml:space="preserve">examine work clothes</command>
         <result xml:space="preserve">Green cargo shorts and a matching collared shirt. Both are wrinkled from frequent use. No iron could ever press out the years of gardening that they've seen.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1076"></child>
+        <children><child nodeId="node-1109"></child>
         </children>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1109">
         <command xml:space="preserve">take work clothes</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1077"></child>
+        <children><child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-1077">
+    <item nodeId="node-1110">
         <command xml:space="preserve">wear work clothes</command>
         <result xml:space="preserve">You put on the set of work clothes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1078">
+    <item nodeId="node-1111">
         <command xml:space="preserve">open chest</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1112">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You squint down the stairwell. Huh, was the bottom of the stairs always so fuzzy looking? Darn old age.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
-            <child nodeId="node-1242"></child>
-            <child nodeId="node-1080"></child>
+        <children><child nodeId="node-1120"></child>
+            <child nodeId="node-1115"></child>
+            <child nodeId="node-1113"></child>
         </children>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1113">
         <command xml:space="preserve">x pictures</command>
         <result xml:space="preserve">You see nothing special about the pictures.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1114">
         <command xml:space="preserve">x banister</command>
         <result xml:space="preserve">You see nothing special about the banister.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1115">
         <command xml:space="preserve">test getoutofbedroom</command>
         <result xml:space="preserve">(Testing.)
 
@@ -1219,10 +1219,10 @@ Your living room lies to your west, and your yard lies to your north.
 [6] n
 [7] n
 </commentary>
-        <children><child nodeId="node-1250"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-1250">
+    <item nodeId="node-1116">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 stairwell
@@ -1230,10 +1230,10 @@ You amble your way down the stairwell, and stop for a minute to catch your breat
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1251"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-1251">
+    <item nodeId="node-1117">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 entryway
@@ -1243,10 +1243,10 @@ Your living room lies to your west, and your yard lies to your north.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1252"></child>
+        <children><child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-1252">
+    <item nodeId="node-1118">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 stairwell
@@ -1254,10 +1254,10 @@ You amble your way down the stairwell, and stop for a minute to catch your breat
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1253"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-1253">
+    <item nodeId="node-1119">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 bedroom
@@ -1268,26 +1268,26 @@ Your bathroom lies to your east, and the stairwell down to the rest of your home
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1120">
         <command xml:space="preserve">examine nightstand</command>
         <result xml:space="preserve">Your nightstand. Pretty sure your mother's mother gave it to your mother, who gave it to you. Regardless, it's been in the family forever, but now it serves its spectacular purpose as a central location for your pair of glasses. So that you don't forget them, of course.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1121">
         <command xml:space="preserve">take pair of glasses</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
-            <child nodeId="node-1084"></child>
+        <children><child nodeId="node-1124"></child>
+            <child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1122">
         <command xml:space="preserve">wear pair of glasses</command>
         <result xml:space="preserve">The world comes into focus - no more squinting necessary. Ready to take on the day at full strength! Well, as full strength as you can muster at your age!
 
@@ -1295,10 +1295,10 @@ You put on the pair of glasses.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1123">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
@@ -1307,7 +1307,7 @@ stairwell
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1124">
         <command xml:space="preserve">wear glasses</command>
         <result xml:space="preserve">The world comes into focus -no more squinting necessary. Ready to take on the day at full strength! Well, as full strength as you can muster at your age!
 
@@ -1315,26 +1315,26 @@ You put on the pair of glasses.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1125">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1126">
         <command xml:space="preserve">magnify dresser</command>
         <result xml:space="preserve">You need a tool with which to magnify things...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1089"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1127">
         <command xml:space="preserve">test getoutofbedroom</command>
         <result xml:space="preserve">(Testing.)
 
@@ -1382,10 +1382,10 @@ Your living room lies to your east, and your yard lies to your north.
 [6] n
 [7] n
 </commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1128">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
@@ -1396,10 +1396,10 @@ The left planter is there, the right planter is there, your fence is still there
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1129">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 entryway
@@ -1409,55 +1409,55 @@ Your living room lies to your east, and your yard lies to your north.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1092"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-1092">
+    <item nodeId="node-1130">
         <command xml:space="preserve">open closet</command>
         <result xml:space="preserve">You open the closet, revealing a shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-1093">
+    <item nodeId="node-1131">
         <command xml:space="preserve">unlock toolbox</command>
         <result xml:space="preserve">What do you want to unlock the shiny red toolbox with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-1094">
+    <item nodeId="node-1132">
         <command xml:space="preserve">keys</command>
         <result xml:space="preserve">You unlock the shiny red toolbox.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1133">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. The toolbox is closed. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1096"></child>
+        <children><child nodeId="node-1134"></child>
         </children>
     </item>
-    <item nodeId="node-1096">
+    <item nodeId="node-1134">
         <command xml:space="preserve">open toolbox</command>
         <result xml:space="preserve">You open the shiny red toolbox, revealing a spade, a bag of seeds and a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
+        <children><child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1135">
         <command xml:space="preserve">examine toolbox</command>
         <result xml:space="preserve">A polished, well maintained toolbox. An essential element in the arsenal of a master gardener. Inside the open toolbox you can see the core elements of any gardener's kit, a spade and a bag of seeds. There is also a special tool for which you've found most use in your aging years - a magnifying glass.
 
@@ -1465,28 +1465,28 @@ In the shiny red toolbox are a spade, a bag of seeds and a magnifying glass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1098"></child>
+        <children><child nodeId="node-1136"></child>
         </children>
     </item>
-    <item nodeId="node-1098">
+    <item nodeId="node-1136">
         <command xml:space="preserve">take magnifying glass</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1099"></child>
+        <children><child nodeId="node-1137"></child>
         </children>
     </item>
-    <item nodeId="node-1099">
+    <item nodeId="node-1137">
         <command xml:space="preserve">magnify bag of seeds</command>
         <result xml:space="preserve">On close inspection, nothing looks out of the ordinary...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-1100">
+    <item nodeId="node-1138">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Isn't modern technology great! The glasses help you see to the bottom of the stairwell, so you start ambling down towards the bottom.
 
@@ -1497,87 +1497,87 @@ The left planter is there, the right planter is there, your fence is still there
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1101"></child>
+        <children><child nodeId="node-1139"></child>
         </children>
     </item>
-    <item nodeId="node-1101">
+    <item nodeId="node-1139">
         <command xml:space="preserve">magnify tomatoes</command>
         <result xml:space="preserve">Using the magnifying glass, you can see what look like two semicircular rings of small holes on many of the ruined tomatoes. Bite marks! But of what? One step closer to justice...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1102">
+    <item nodeId="node-1140">
         <command xml:space="preserve">look at window</command>
         <result xml:space="preserve">You see nothing special about the window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
+        <children><child nodeId="node-1141"></child>
         </children>
     </item>
-    <item nodeId="node-1103">
+    <item nodeId="node-1141">
         <command xml:space="preserve">examine window</command>
         <result xml:space="preserve">You see nothing special about the window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1142">
         <command xml:space="preserve">go to dresser</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1105"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-1105">
+    <item nodeId="node-1143">
         <command xml:space="preserve">examine dresser</command>
         <result xml:space="preserve">Midcentury modern, just like the rest of your furniture. Well, now it's called midcentury modern, apparently. When you got it it was just modern! It's currently closed. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-1106">
+    <item nodeId="node-1144">
         <command xml:space="preserve">open dresser</command>
         <result xml:space="preserve">You open the dresser, revealing a set of work clothes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-1107">
+    <item nodeId="node-1145">
         <command xml:space="preserve">examine work clothes</command>
         <result xml:space="preserve">Green cargo shorts and a matching collared shirt. Both are wrinkled from frequent use. No iron could ever press out the years of gardening that they've seen.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1146">
         <command xml:space="preserve">take work clothes</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
+        <children><child nodeId="node-1147"></child>
         </children>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1147">
         <command xml:space="preserve">wear work clothes</command>
         <result xml:space="preserve">You put on the set of work clothes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1110"></child>
+        <children><child nodeId="node-1148"></child>
         </children>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1148">
         <command xml:space="preserve">inventory</command>
         <result xml:space="preserve">You are carrying:
   a set of work clothes (being worn)
@@ -1585,68 +1585,68 @@ The left planter is there, the right planter is there, your fence is still there
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1149">
         <command xml:space="preserve">get in bed</command>
         <result xml:space="preserve">No time to sleep more, your garden is eagerly awaiting you, after all!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1112"></child>
+        <children><child nodeId="node-1150"></child>
         </children>
     </item>
-    <item nodeId="node-1112">
+    <item nodeId="node-1150">
         <command xml:space="preserve">examine dresser</command>
         <result xml:space="preserve">The dresser is empty.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1113">
+    <item nodeId="node-1151">
         <command xml:space="preserve">examine window</command>
         <result xml:space="preserve">Through the window you see the shining sun. A bright and cheery day. You feel incredible just thinking about it. No better day than today to garden.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1114">
+    <item nodeId="node-1152">
         <command xml:space="preserve">examine dresser</command>
         <result xml:space="preserve">Midcentury modern, just like the rest of your furniture. Well, now it's called midcentury modern, apparently. When you got it it was just modern! It's currently closed. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1120"></child>
-            <child nodeId="node-1115"></child>
+        <children><child nodeId="node-1158"></child>
+            <child nodeId="node-1153"></child>
         </children>
     </item>
-    <item nodeId="node-1115">
+    <item nodeId="node-1153">
         <command xml:space="preserve">open dresser</command>
         <result xml:space="preserve">You open the dresser, revealing a set of work clothes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1119"></child>
-            <child nodeId="node-1116"></child>
+        <children><child nodeId="node-1157"></child>
+            <child nodeId="node-1154"></child>
         </children>
     </item>
-    <item nodeId="node-1116">
+    <item nodeId="node-1154">
         <command xml:space="preserve">examine work clothes</command>
         <result xml:space="preserve">Green cargo shorts and a matching collared shirt. Both are wrinkled from frequent use. No iron could ever press out the years of gardening that they've seen.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1117"></child>
+        <children><child nodeId="node-1155"></child>
         </children>
     </item>
-    <item nodeId="node-1117">
+    <item nodeId="node-1155">
         <command xml:space="preserve">take work clothes</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1118"></child>
+        <children><child nodeId="node-1156"></child>
         </children>
     </item>
-    <item nodeId="node-1118">
+    <item nodeId="node-1156">
         <command xml:space="preserve">wear work clothes</command>
         <result xml:space="preserve">As you carefully put on your clothes, you hear something jingling in the pockets of your cargo shorts. Oh boy, you left your keys in your pants again? Silly you!
 
@@ -1655,181 +1655,127 @@ You put on the set of work clothes.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1119">
+    <item nodeId="node-1157">
         <command xml:space="preserve">examine dresser</command>
         <result xml:space="preserve">Midcentury modern, just like the rest of your furniture. Well, now it's called midcentury modern, apparently. When you got it it was just modern! It's currently open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1120">
+    <item nodeId="node-1158">
         <command xml:space="preserve">enter bed</command>
         <result xml:space="preserve">No time to sleep more, your garden is eagerly awaiting you, after all!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1121"></child>
+        <children><child nodeId="node-1159"></child>
         </children>
     </item>
-    <item nodeId="node-1121">
+    <item nodeId="node-1159">
         <command xml:space="preserve">enter bed</command>
         <result xml:space="preserve">No time to sleep more, your garden is eagerly awaiting you, after all!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
+        <children><child nodeId="node-1160"></child>
         </children>
     </item>
-    <item nodeId="node-1122">
+    <item nodeId="node-1160">
         <command xml:space="preserve">examine dresser</command>
         <result xml:space="preserve">test
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1123">
+    <item nodeId="node-1161">
         <command xml:space="preserve">enter bed</command>
         <result xml:space="preserve">No time to sleep more, your garden is eagerly awaiting you, after all!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1124"></child>
+        <children><child nodeId="node-1162"></child>
         </children>
     </item>
-    <item nodeId="node-1124">
+    <item nodeId="node-1162">
         <command xml:space="preserve">examine dresser</command>
         <result xml:space="preserve">test.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1125"></child>
+        <children><child nodeId="node-1163"></child>
         </children>
     </item>
-    <item nodeId="node-1125">
+    <item nodeId="node-1163">
         <command xml:space="preserve">open dresser</command>
         <result xml:space="preserve">It isn't something you can open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1126">
+    <item nodeId="node-1164">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You don't feel the need to go to the bathroom right now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1138"></child>
-            <child nodeId="node-1170"></child>
-            <child nodeId="node-1127"></child>
+        <children><child nodeId="node-1186"></child>
+            <child nodeId="node-1176"></child>
+            <child nodeId="node-1165"></child>
         </children>
     </item>
-    <item nodeId="node-1127">
+    <item nodeId="node-1165">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 bedroom
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1128"></child>
+        <children><child nodeId="node-1166"></child>
         </children>
     </item>
-    <item nodeId="node-1128">
+    <item nodeId="node-1166">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 stairwell
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1129"></child>
+        <children><child nodeId="node-1167"></child>
         </children>
     </item>
-    <item nodeId="node-1129">
+    <item nodeId="node-1167">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 entryway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1130"></child>
+        <children><child nodeId="node-1168"></child>
         </children>
     </item>
-    <item nodeId="node-1130">
+    <item nodeId="node-1168">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 living room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1131"></child>
+        <children><child nodeId="node-1169"></child>
         </children>
     </item>
-    <item nodeId="node-1131">
+    <item nodeId="node-1169">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 entryway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1132"></child>
+        <children><child nodeId="node-1170"></child>
         </children>
-    </item>
-    <item nodeId="node-1132">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-yard
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1133"></child>
-        </children>
-    </item>
-    <item nodeId="node-1133">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1134"></child>
-        </children>
-    </item>
-    <item nodeId="node-1134">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-entryway
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1135"></child>
-        </children>
-    </item>
-    <item nodeId="node-1135">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-yard
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1136"></child>
-        </children>
-    </item>
-    <item nodeId="node-1136">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1137"></child>
-        </children>
-    </item>
-    <item nodeId="node-1137">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1170">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You squint down the stairwell. Huh, was the bottom of the stairs always so fuzzy looking? Darn old age.
+        <result xml:space="preserve">
+yard
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1837,6 +1783,60 @@ yard
         </children>
     </item>
     <item nodeId="node-1171">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1172"></child>
+        </children>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+entryway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+yard
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1174"></child>
+        </children>
+    </item>
+    <item nodeId="node-1174">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1175"></child>
+        </children>
+    </item>
+    <item nodeId="node-1175">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You squint down the stairwell. Huh, was the bottom of the stairs always so fuzzy looking? Darn old age.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1177"></child>
+        </children>
+    </item>
+    <item nodeId="node-1177">
         <command xml:space="preserve">test getoutofbedroom</command>
         <result xml:space="preserve">(Testing.)
 
@@ -1883,6 +1883,15 @@ Your living room lies to your east, and your yard lies to your north.
 [6] n
 [7] n
 </commentary>
+        <children><child nodeId="node-1178"></child>
+        </children>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1179"></child>
         </children>
     </item>
@@ -1896,8 +1905,10 @@ Your living room lies to your east, and your yard lies to your north.
         </children>
     </item>
     <item nodeId="node-1180">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+stairwell
+You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1905,10 +1916,12 @@ Your living room lies to your east, and your yard lies to your north.
         </children>
     </item>
     <item nodeId="node-1181">
-        <command xml:space="preserve">s</command>
+        <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-stairwell
-You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
+entryway
+The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+
+Your living room lies to your east, and your yard lies to your north.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1918,10 +1931,10 @@ You amble your way down the stairwell, and stop for a minute to catch your breat
     <item nodeId="node-1182">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-entryway
-The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
+yard
+You step out into your yard, ready to bask in the glory of your wonderous garden. However, as you are taking your time down the cobblestone path, you can't help but shake the feeling that something isn't right. It feels as though something has changed, been disturbed.
 
-Your living room lies to your east, and your yard lies to your north.
+The left planter is there, the right planter is there, your fence is still there, blocking your place of serenity from the hustle and bustle of the city beyond. But still...something seems wrong.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1929,12 +1942,12 @@ Your living room lies to your east, and your yard lies to your north.
         </children>
     </item>
     <item nodeId="node-1183">
-        <command xml:space="preserve">n</command>
+        <command xml:space="preserve">s</command>
         <result xml:space="preserve">
-yard
-You step out into your yard, ready to bask in the glory of your wonderous garden. However, as you are taking your time down the cobblestone path, you can't help but shake the feeling that something isn't right. It feels as though something has changed, been disturbed.
+entryway
+The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
 
-The left planter is there, the right planter is there, your fence is still there, blocking your place of serenity from the hustle and bustle of the city beyond. But still...something seems wrong.
+Your living room lies to your east, and your yard lies to your north.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1944,10 +1957,8 @@ The left planter is there, the right planter is there, your fence is still there
     <item nodeId="node-1184">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
-entryway
-The humble entryway of your quaint row house. To your right is the entryway closet, where things just always seem to end up when you forget where they are. Probably because it is closest to the door.
-
-Your living room lies to your east, and your yard lies to your north.
+stairwell
+You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1955,17 +1966,6 @@ Your living room lies to your east, and your yard lies to your north.
         </children>
     </item>
     <item nodeId="node-1185">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-stairwell
-You amble your way down the stairwell, and stop for a minute to catch your breath. You lean up against the banister and give your creaky knees a moment's respite. Good thing there are pictures to admire here while you rest.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1186"></child>
-        </children>
-    </item>
-    <item nodeId="node-1186">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 bedroom
@@ -1978,106 +1978,106 @@ Your bathroom lies to your east, and the stairwell down to the rest of your home
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1138">
+    <item nodeId="node-1186">
         <command xml:space="preserve">examine shower</command>
         <result xml:space="preserve">You see nothing special about the shower.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1139"></child>
+        <children><child nodeId="node-1187"></child>
         </children>
     </item>
-    <item nodeId="node-1139">
+    <item nodeId="node-1187">
         <command xml:space="preserve">x d</command>
         <result xml:space="preserve">You see nothing unexpected in that direction.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1140"></child>
+        <children><child nodeId="node-1188"></child>
         </children>
     </item>
-    <item nodeId="node-1140">
+    <item nodeId="node-1188">
         <command xml:space="preserve">xj</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1141"></child>
+        <children><child nodeId="node-1189"></child>
         </children>
     </item>
-    <item nodeId="node-1141">
+    <item nodeId="node-1189">
         <command xml:space="preserve">x john</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1142"></child>
+        <children><child nodeId="node-1190"></child>
         </children>
     </item>
-    <item nodeId="node-1142">
+    <item nodeId="node-1190">
         <command xml:space="preserve">x dresser</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1143"></child>
+        <children><child nodeId="node-1191"></child>
         </children>
     </item>
-    <item nodeId="node-1143">
+    <item nodeId="node-1191">
         <command xml:space="preserve">x bidet</command>
         <result xml:space="preserve">You see nothing special about the bidet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1144"></child>
+        <children><child nodeId="node-1192"></child>
         </children>
     </item>
-    <item nodeId="node-1144">
+    <item nodeId="node-1192">
         <command xml:space="preserve">x toilet</command>
         <result xml:space="preserve">You see nothing special about the toilet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1145"></child>
+        <children><child nodeId="node-1193"></child>
         </children>
     </item>
-    <item nodeId="node-1145">
+    <item nodeId="node-1193">
         <command xml:space="preserve">x sink</command>
         <result xml:space="preserve">You see nothing special about the sink.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1146"></child>
+        <children><child nodeId="node-1194"></child>
         </children>
     </item>
-    <item nodeId="node-1146">
+    <item nodeId="node-1194">
         <command xml:space="preserve">x mirror</command>
         <result xml:space="preserve">You see nothing special about the mirror.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1147"></child>
+        <children><child nodeId="node-1195"></child>
         </children>
     </item>
-    <item nodeId="node-1147">
+    <item nodeId="node-1195">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">bathroom
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1148"></child>
+        <children><child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-1148">
+    <item nodeId="node-1196">
         <command xml:space="preserve">clear</command>
         <result xml:space="preserve">What do you want to clear?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1149"></child>
+        <children><child nodeId="node-1197"></child>
         </children>
     </item>
-    <item nodeId="node-1149">
+    <item nodeId="node-1197">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">bathroom
 

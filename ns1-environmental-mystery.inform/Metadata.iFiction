@@ -6,14 +6,20 @@
             <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>Pomodori</title>
+            <title>pomodori</title>
             <author>jd calvelli</author>
-            <headline>An Interactive Fiction</headline>
+            <headline>an interactive mystery</headline>
             <genre>Fiction</genre>
             <firstpublished>2022</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
+        <cover>
+            <format>png</format>
+            <height>120</height>
+            <width>120</width>
+            <description>A cartoon tomato.</description>
+        </cover>
         <releases>
             <attached>
                 <release>
@@ -33,6 +39,7 @@
             <serial>221002</serial>
             <release>1</release>
             <compiler>Inform Inform 10.1.2 (build )</compiler>
+            <coverpicture>1</coverpicture>
         </glulx>
     </story>
 </ifindex>
