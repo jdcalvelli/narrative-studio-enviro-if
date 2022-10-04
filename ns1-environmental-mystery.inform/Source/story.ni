@@ -24,7 +24,9 @@ The bedroom is a room.
 The description of the bedroom is 
 "[if unvisited]You slowly open your eyes as the sun rises outside your window. Typical for you - it's always best to tend to your prized garden as early in the morning as possible! You aren't sure what is creaking more, the bed or your weary bones as you carefully, methodically extract yourself from your bed. Time to start another wonderful day.
 
-You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy. [else if visited]You make your way back into your bedroom.
+You yawn and stretch, being extra careful not to sprain your back...again, and squint around at your familiar bedroom. Still the same old bed, dresser, and nightstand that you've had since the 50s. But you like it that way. It's cozy. 
+
+Your bathroom lies to your east, and the stairwell down to the rest of your home is to your north.[else if visited]Once again in your bedroom. Thankfully, your bed, dresser, and nightstand are still there. Nothing got up and ran away while you were gone!
 
 Your bathroom lies to your east, and the stairwell down to the rest of your home is to your north."
 
@@ -189,7 +191,7 @@ The coffee table is an undescribed fixed in place supporter in the living room.
 The description of the coffee table is
 "A classic example of function over form - it's probably the most nondescript piece of furniture you own. Definitely is, compared to the antiques you have around, actually. But, it's necessary as the perfect reading station for your gardening books! You have many lying around, but three here catch your eye - 
 
-'Tomato Tips' by Camron Gonzalez, 'Planter Aesthetics' by Jet Vellinga, and 'Pesky Pests' by Priscilla Xu."
+'Tomato Tips' by Camron Gonzalez, Planter Aesthetics' by Jet Vellinga, and 'Pesky Pests' by Priscilla Xu."
 
 The gardening books are an undescribed fixed in place object on the coffee table.
 The description of the gardening books is
@@ -363,4 +365,4 @@ An every turn rule:
 
 [TESTS]
 
-test getOutOfBedroom with "examine nightstand / wear glasses / open dresser / wear work clothes / take set of keys / n / n " 
+[test getOutOfBedroom with "examine nightstand / wear glasses / open dresser / wear work clothes / take set of keys / n / n " ]
